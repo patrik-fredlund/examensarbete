@@ -6,7 +6,6 @@ import { Home } from './pages/Home';
 import { Contact } from './pages/Contact';
 import { About } from './pages/About';
 import { Navbar } from './components/Navbar';
-import { Work } from './pages/Work';
 
 const App = () => {
   return (
