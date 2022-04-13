@@ -11,15 +11,15 @@ export const Navbar = () => {
         </Link>
       </Logo>
       <Menu>
-        <NavLink className='navItem' to='Work'>
+        <Link className='navItem' to='Work'>
           Work
-        </NavLink>
-        <NavLink className='navItem' to='About'>
+        </Link>
+        <Link className='navItem' to='About'>
           About
-        </NavLink>
-        <NavLink className='navItem' to='Contact'>
+        </Link>
+        <Link className='navItem' to='Contact'>
           Contact
-        </NavLink>
+        </Link>
       </Menu>
     </Nav>
   );

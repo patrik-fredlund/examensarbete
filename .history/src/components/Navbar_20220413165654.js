@@ -6,9 +6,9 @@ export const Navbar = () => {
   return (
     <Nav>
       <Logo>
-        <Link to='/'>
+        <NavLink to='/'>
           <img className='logo' src={require('../Images/pf-logo.png')} alt='' />
-        </Link>
+        </NavLink>
       </Logo>
       <Menu>
         <NavLink className='navItem' to='Work'>
