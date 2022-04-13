@@ -10,11 +10,10 @@ export const Nav = styled.nav`
 
   /* padding-right: 100px; */
   display: flex;
-  height: 55px;
 
   .logo {
     margin-left: 25px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
 
@@ -33,14 +32,14 @@ export const Logo = styled.nav`
     font-size: 16px;
     margin-left: 20px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
 `;
 
 export const Menu = styled.div`
   display: flex;
   align-items: center;
-  width: 350px;
+  width: 300px;
   margin-right: 20px;
 `;
 
@@ -50,7 +49,7 @@ export const NavLink = styled(Link)`
   color: black;
   display: flex;
   height: 100%;
-  width: 150px;
+  width: 100px;
   text-decoration: none;
   justify-content: space-around;
   align-items: center;
@@ -68,8 +67,7 @@ export const NavLink = styled(Link)`
   &:hover {
     transition: all 0.6s ease-in-out;
 
-    //background: white;
-    background: #deff24;
+    background: white;
     /* color: #00ccff; */
   }
 `;

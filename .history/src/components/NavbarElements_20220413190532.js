@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 
   .logo {
     margin-left: 25px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
 

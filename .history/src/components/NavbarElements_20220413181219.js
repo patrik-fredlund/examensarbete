@@ -1,21 +1,20 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa';
+import MenuIcon from '@mui/icons-material/Menu';
 
 export const Nav = styled.nav`
   justify-content: space-between;
-  //  background-color: #9e9e9e;
+  background-color: #9e9e9e;
   //background-color: whitesmoke;
   //background-color: white;
 
   /* padding-right: 100px; */
   display: flex;
-  height: 55px;
 
   .logo {
-    margin-left: 25px;
-    margin-top: 18px;
-    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .navItem {
@@ -32,15 +31,15 @@ export const Logo = styled.nav`
   .logoName {
     font-size: 16px;
     margin-left: 20px;
-    font-weight: 500;
-    margin-bottom: 4px;
+    font-weight: 400;
+    margin-bottom: 2px;
   }
 `;
 
 export const Menu = styled.div`
   display: flex;
   align-items: center;
-  width: 350px;
+  width: 300px;
   margin-right: 20px;
 `;
 
@@ -50,7 +49,7 @@ export const NavLink = styled(Link)`
   color: black;
   display: flex;
   height: 100%;
-  width: 150px;
+  width: 100px;
   text-decoration: none;
   justify-content: space-around;
   align-items: center;
@@ -68,14 +67,13 @@ export const NavLink = styled(Link)`
   &:hover {
     transition: all 0.6s ease-in-out;
 
-    //background: white;
-    background: #deff24;
+    background: white;
     /* color: #00ccff; */
   }
 `;
 
 //Hamburger Menu
-export const Bars = styled(FaBars)`
+export const Hamburger = styled(MenuIcon)`
   display: none;
   color: #fff;
 

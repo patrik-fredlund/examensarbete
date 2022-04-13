@@ -1,21 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav, Menu, Logo, NavLink, Bars } from './NavbarElements';
+import { Nav, Menu, Logo, NavLink } from './NavbarElements';
 
-export const Navbar = ({ toggle }) => {
+export const Navbar = () => {
   return (
     <Nav>
       <Logo>
         <Link to='/'>
-          <img
-            className='logo'
-            src={require('../Images/pf_logo_2022.png')}
-            alt=''
-          />
+          <img className='logo' src={require('../Images/pf-logo.png')} alt='' />
         </Link>
-        <h1 className='logoName'>Patrik Fredlund</h1>
+        <h1>Patrik Fredlund</h1>
       </Logo>
-      <Bars onClick={toggle} />{' '}
       <Menu>
         <NavLink className='navItem' to='Work'>
           Work

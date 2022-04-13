@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 
   .logo {
     margin-left: 25px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
 
@@ -33,7 +33,7 @@ export const Logo = styled.nav`
     font-size: 16px;
     margin-left: 20px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
 `;
 

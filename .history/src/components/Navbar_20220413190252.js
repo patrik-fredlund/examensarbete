@@ -9,7 +9,7 @@ export const Navbar = ({ toggle }) => {
         <Link to='/'>
           <img
             className='logo'
-            src={require('../Images/pf_logo_2022.png')}
+            src={require('../Images/pf_logo_short.png')}
             alt=''
           />
         </Link>
