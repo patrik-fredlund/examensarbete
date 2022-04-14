@@ -6,8 +6,11 @@ import { HeroContainer } from '../styles/HeroElements';
 
 export const Home = () => {
   return (
-    <HeroContainer>
-      <HeroSection />
-    </HeroContainer>
+    (
+      <HeroContainer>
+        <HeroSection />
+      </HeroContainer>
+    ),
+    (<Footer />)
   );
 };

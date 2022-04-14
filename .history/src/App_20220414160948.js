@@ -32,9 +32,6 @@ const App = () => {
             <Route path='CV' element={<CV />} />
           </Routes>
         </Router>
-        <div>
-          <Footer />
-        </div>
       </div>
     </div>
   );

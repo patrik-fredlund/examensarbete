@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import { AboutContainer } from '../styles/ContentElements';
 
-export const Work = () => {
+const Work = () => {
   return (
     <div>
       <AboutContainer>
@@ -12,3 +12,5 @@ export const Work = () => {
     </div>
   );
 };
+
+export default Work;

@@ -8,8 +8,7 @@ export const Nav = styled.nav`
   //background-color: whitesmoke;
   //background-color: white;
   //background-color: lightblue;
-  //background-color: #00ffea;
-  //background-color: #e7fce1;
+  background-color: red;
 
   /* padding-right: 100px; */
   display: flex;

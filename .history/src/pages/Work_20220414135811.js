@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../components/Footer';
+import { Footer } from '../components/Footer';
 import { AboutContainer } from '../styles/ContentElements';
 
 export const Work = () => {
@@ -8,7 +8,9 @@ export const Work = () => {
       <AboutContainer>
         <h1>Work</h1>
       </AboutContainer>
-      <Footer />
+      <>
+        <Footer />
+      </>
     </div>
   );
 };

@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { GoThreeBars } from 'react-icons/go';
+import { GoThreeBars } from 'react-icons';
 
 export const Nav = styled.nav`
   justify-content: space-between;
   //  background-color: #9e9e9e;
   //background-color: whitesmoke;
   //background-color: white;
-  //background-color: lightblue;
-  //background-color: #00ffea;
-  //background-color: #e7fce1;
 
   /* padding-right: 100px; */
   display: flex;

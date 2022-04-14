@@ -10,8 +10,8 @@ import Footer from './components/Footer';
 import { Work } from './pages/Work';
 import { useState } from 'react';
 import Sidebar from './components/Sidebar';
-/* import { PageContainer } from './styles/GlobalStyles ';
- */
+import { PageContainer } from '../styles/GlobaStyles';
+
 const App = () => {
   const [isOpen, SetIsOpen] = useState(false);
 
@@ -20,23 +20,18 @@ const App = () => {
   };
 
   return (
-    <div className='PageContainer'>
-      <div className='ContentWrap'>
-        <Router>
-          <Navbar toggle={toggle} />
-          <Sidebar isOpen={isOpen} toggle={toggle} />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='About' element={<About />} />
-            <Route path='Work' element={<Work />} />
-            <Route path='CV' element={<CV />} />
-          </Routes>
-        </Router>
-        <div>
-          <Footer />
-        </div>
-      </div>
-    </div>
+    <PageContainer>
+      <Router>
+        <Navbar toggle={toggle} />
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='About' element={<About />} />
+          <Route path='Work' element={<Work />} />
+          <Route path='CV' element={<CV />} />
+        </Routes>
+      </Router>
+    </PageContainer>
   );
 };
 
