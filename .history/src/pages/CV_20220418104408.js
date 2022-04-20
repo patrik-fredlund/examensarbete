@@ -1,14 +1,14 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import { AboutContainer } from '../styles/ContentElements';
-import { Wrapper } from '../styles/GlobalStyles';
+import { Wrapper, HeaderContainer } from '../styles/GlobalStyles';
 
 export const CV = () => {
   return (
     <Wrapper>
-      <AboutContainer>
+      <HeaderContainer>
         <h1>CV </h1>
-      </AboutContainer>
+      </HeaderContainer>
     </Wrapper>
   );
 };
