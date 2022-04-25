@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+
+}
+
+html, body {
+
+  overflow-x: hidden;
+  
+ /*  display:flex; 
+  flex-direction:column; 
+  min-height: 100vh;
+  margin:0; */
+  scroll-behavior: smooth;
+
+
+
+}
+
+
+body {
+ /* what we already have */
+ min-height: 100vh;
+ margin: 0;
+ padding: 0;
+ /* what we're adding */
+ display: flex;
+ flex-direction: column;
+  
+}
+
+
+
+.logo {
+  height: 35px;
+}
+
+
+.App {
+
+  font-family: sans-serif;
+  text-align: center;
+ 
+
+}
+
+
+
+/* 
+.background {
+  position: absolute;
+ z-index: 1;
+  border: 1px solid red;
+ 
+  
+
+ 
+}
+ */
+
+
+/*  .pageContainer {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+ 
+ } */
+
+
+ .footerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  z-index: 2;
+  /* background-color: #e7fce1; */
+  background-color: rgb(246, 246, 240);
+  margin-top:auto; 
+  flex-shrink: 0;
+
+
+  
+
+  
+
+
+
+}
+
+.footerLinks {
+  padding: 20px;
+  text-align: center;
+}
+.footerLinks a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+.footerLinks a:hover {
+  transition: all 0.2s ease-in-out;
+  background: #deff24;
+
+
+}
+
+.visit {
+  font-weight: 600;
+}
+;
+
+
+
+
+.parent {
+  
+  display: flex;
+}
+.greting {
+  text-align: right;
+  width: 720px;
+}
+.static {
+  width: 720px;
+  text-align: left;
+  border: 1px solid pink;
+}
+
+ul {
+  
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  list-style-type: none;
+  /* background-color: yellow; */
+
+}
+
+li {
+  padding: 0 15px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+
+
+  
+
+}
+
+ a:hover {
+  transition: all 0.2s ease-in-out;
+  background: #deff24;
+  
+
+
+}
+
+.show-selected_link {
+  /* background-color: red; */
+  /* background: #deff24; */
+  background-color: #bcfd4c;
+
+
+      
+
+}
+
+
+.ToggleProjectContainer {
+  width: 1000px;
+   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  
+  
+}
+
+
+/* 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ */
+
+
+ .heroWrap {
+  /* display: flex; */
+  /* border: 1px solid red; */
+}
