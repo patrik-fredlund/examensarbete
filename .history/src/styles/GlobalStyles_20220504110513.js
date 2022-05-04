@@ -83,7 +83,6 @@ export const HeaderContainer = styled.div`
     font-size: 40px;
     font-weight: 900;
     letter-spacing: 0.1rem;
-    margin-left: 30px;
   }
   p {
     border: 1px solid pink;
@@ -97,7 +96,7 @@ export const HeaderContainer = styled.div`
     max-width: 1200px;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
   }

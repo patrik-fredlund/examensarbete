@@ -97,7 +97,7 @@ export const HeaderContainer = styled.div`
     max-width: 1200px;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
   }

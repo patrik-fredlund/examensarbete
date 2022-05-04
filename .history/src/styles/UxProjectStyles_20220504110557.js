@@ -35,6 +35,5 @@ export const UxProject = styled.div`
   .uxProjectContainer {
     border: 1px solid green;
     margin: 10px;
-    margin-left: 60px;
   }
 `;

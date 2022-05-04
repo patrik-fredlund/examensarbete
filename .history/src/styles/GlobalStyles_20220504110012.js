@@ -59,12 +59,11 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const HeaderContainer = styled.div`
-  //max-width: 1200px;
+  max-width: 1200px;
   border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   //align-items: left;
   margin: 0 30px 0 30px;
   text-align: center;
@@ -83,7 +82,6 @@ export const HeaderContainer = styled.div`
     font-size: 40px;
     font-weight: 900;
     letter-spacing: 0.1rem;
-    margin-left: 30px;
   }
   p {
     border: 1px solid pink;
@@ -93,12 +91,11 @@ export const HeaderContainer = styled.div`
   }
 
   .innerContainer {
-    border: 1px solid pink;
     max-width: 1200px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    border: 1px solid pink;
     margin: 10px;
   }
 `;

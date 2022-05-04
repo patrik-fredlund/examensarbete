@@ -66,7 +66,7 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   align-items: center;
   //align-items: left;
-  margin: 0 30px 0 30px;
+  //margin: 0 30px 0 30px;
   text-align: center;
   margin-top: 150px;
   z-index: 8;
@@ -83,11 +83,10 @@ export const HeaderContainer = styled.div`
     font-size: 40px;
     font-weight: 900;
     letter-spacing: 0.1rem;
-    margin-left: 30px;
   }
   p {
     border: 1px solid pink;
-    margin-left: 30px;
+    //margin-left: 30px;
     text-align: left;
     max-width: 600px;
   }

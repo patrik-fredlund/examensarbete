@@ -30,7 +30,6 @@ export const Home = () => {
         <ToggleProject />
         <Routes>
           <Route path='/' element={<Work2 />} />
-          <Route path='Work2' element={<Work2 />} />
           <Route path='FrontendProjects' element={<FrontendProjects />} />
           <Route path='Project2' element={<Project2 />} />
         </Routes>
