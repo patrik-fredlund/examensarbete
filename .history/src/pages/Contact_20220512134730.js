@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <Wrapper>
       <HeaderContainer>
-        <h1 className='projectTitle'>Hit me up!</h1>
+        <h1 className='projectTitle'>UX cases </h1>
         <hr />
       </HeaderContainer>
       <ContactContainer>

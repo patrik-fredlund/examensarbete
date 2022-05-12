@@ -18,6 +18,11 @@ export const Contact = () => {
           patrikfredlunds@gmail.com
         </a>
       </ContactContainer>
+      <HeaderContainer>
+        <br />
+        <br />
+        <br />
+      </HeaderContainer>
     </Wrapper>
   );
 };

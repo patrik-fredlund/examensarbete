@@ -331,7 +331,6 @@ export const ProjectsWrapper = styled.div`
   width: 100%;
   z-index: 1;
   margin-top: 50px;
-
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -340,10 +339,9 @@ export const ProjectsWrapper = styled.div`
   .projectContainer {
     border: 1px solid lightgrey;
     display: flex;
-    width: 900px;
+    width: 800px;
     height: 500px;
     padding: 20px;
-
     //margin: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: all 0.6s ease-in-out;
@@ -359,7 +357,7 @@ export const ProjectsWrapper = styled.div`
       background: #e3fae4;
       padding: 15px;
       //margin-top: 10px;
-      width: 910px;
+      width: 810px;
       height: 500px;
 
       /* color: #00ccff; */
@@ -375,7 +373,7 @@ export const ProjectsWrapper = styled.div`
       flex-direction: column;
       height: 100%;
       width: 100%;
-      min-height: 500px;
+
       align-items: center;
 
       &:hover {
@@ -422,7 +420,7 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;

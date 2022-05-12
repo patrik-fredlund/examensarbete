@@ -17,6 +17,16 @@ export const Contact = () => {
         <a href='mailto:patrikfredlunds@gmail.com' className='email'>
           patrikfredlunds@gmail.com
         </a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </ContactContainer>
     </Wrapper>
   );

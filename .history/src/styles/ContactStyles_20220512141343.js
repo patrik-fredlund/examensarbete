@@ -13,10 +13,8 @@ export const ContactContainer = styled.div`
   h3:nth-child(1) {
     font-size: 30px;
     line-height: 30px;
-    font-weight: 200;
+    font-weight: 600;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
   }
 
   h3 {

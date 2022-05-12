@@ -65,6 +65,7 @@ export const FrontensProjectsWrapper = styled.div`
   .frontendProjectsContainer {
     border: 1px solid lightgrey;
     display: flex;
+
     max-width: 900px;
     height: 500px;
 
@@ -78,7 +79,8 @@ export const FrontensProjectsWrapper = styled.div`
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+      //background: white;
+      //background: #e3fae4;
       background: #e3fae4;
       padding: 15px;
       //margin-top: 10px;
@@ -167,7 +169,7 @@ export const FrontensProjectsWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
 
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;
@@ -191,7 +193,20 @@ export const FrontensProjectsWrapper = styled.div`
     }
   }
 
-  .frontendProjectInfo::before {
+  @media screen and (max-width: 900px) {
+    .frontendProjectInfo {
+      //border: 5px solid pink;
+      //height: 1700px;
+      display: flex;
+      //flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .projectInfo::before {
     position: absolute;
     content: '';
     top: 0;
@@ -208,21 +223,8 @@ export const FrontensProjectsWrapper = styled.div`
     opacity: 0;
   }
 
-  .frontendProjectInfo:hover::before {
+  .projectInfo:hover::before {
     opacity: 1;
-  }
-
-  @media screen and (max-width: 900px) {
-    .frontendProjectInfo {
-      //border: 5px solid pink;
-      //height: 1700px;
-      display: flex;
-      //flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center;
-      height: 100%;
-      width: 100%;
-    }
   }
 
   .freshkeeper {

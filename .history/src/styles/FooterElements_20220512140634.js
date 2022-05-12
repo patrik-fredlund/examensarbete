@@ -31,5 +31,6 @@ export const FooterStyles = styled.nav`
 
   .visit {
     font-weight: 600;
+    margin-right: 20px;
   }
 `;

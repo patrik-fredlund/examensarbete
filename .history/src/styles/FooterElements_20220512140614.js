@@ -9,6 +9,7 @@ export const FooterStyles = styled.nav`
     font-size: 14px;
     z-index: 2;
     margin-top: 6em;
+    font-weight: 200;
   }
 
   .footerLinks {

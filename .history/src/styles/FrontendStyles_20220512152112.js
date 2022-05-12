@@ -167,7 +167,7 @@ export const FrontensProjectsWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
 
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;
@@ -179,7 +179,7 @@ export const FrontensProjectsWrapper = styled.div`
     z-index: 1;
 
     &:hover {
-      //transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
 
       //background: white;
       //background: #4c4c4c;
@@ -191,7 +191,20 @@ export const FrontensProjectsWrapper = styled.div`
     }
   }
 
-  .frontendProjectInfo::before {
+  @media screen and (max-width: 900px) {
+    .frontendProjectInfo {
+      //border: 5px solid pink;
+      //height: 1700px;
+      display: flex;
+      //flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .projectInfo::before {
     position: absolute;
     content: '';
     top: 0;
@@ -208,21 +221,8 @@ export const FrontensProjectsWrapper = styled.div`
     opacity: 0;
   }
 
-  .frontendProjectInfo:hover::before {
+  .projectInfo:hover::before {
     opacity: 1;
-  }
-
-  @media screen and (max-width: 900px) {
-    .frontendProjectInfo {
-      //border: 5px solid pink;
-      //height: 1700px;
-      display: flex;
-      //flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center;
-      height: 100%;
-      width: 100%;
-    }
   }
 
   .freshkeeper {

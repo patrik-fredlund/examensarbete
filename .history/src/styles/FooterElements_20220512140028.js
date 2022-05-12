@@ -8,6 +8,9 @@ export const FooterStyles = styled.nav`
     width: 100%;
     font-size: 14px;
     z-index: 2;
+    //background-color: #e7fce1;
+    //background-color: white;
+
     margin-top: 6em;
   }
 

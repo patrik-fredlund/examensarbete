@@ -19,6 +19,7 @@ export const FooterStyles = styled.nav`
     padding: 20px;
     text-decoration: none;
     color: black;
+    margin-right: 20px;
   }
   .footerLinks a:hover {
     transition: all 0.2s ease-in-out;

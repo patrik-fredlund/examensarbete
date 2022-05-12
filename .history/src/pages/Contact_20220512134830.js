@@ -18,6 +18,7 @@ export const Contact = () => {
           patrikfredlunds@gmail.com
         </a>
       </ContactContainer>
+      <HeaderContainer></HeaderContainer>
     </Wrapper>
   );
 };

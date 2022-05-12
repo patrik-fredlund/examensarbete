@@ -422,13 +422,13 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;
     background-image: linear-gradient(
       to right,
-      hsl(111, 100%, 90%),
+
       hsl(179, 100%, 30%)
     );
     z-index: 1;

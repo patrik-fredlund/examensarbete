@@ -359,7 +359,7 @@ export const ProjectsWrapper = styled.div`
       background: #e3fae4;
       padding: 15px;
       //margin-top: 10px;
-      width: 910px;
+      width: 810px;
       height: 500px;
 
       /* color: #00ccff; */
@@ -422,7 +422,7 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;
@@ -431,19 +431,6 @@ export const ProjectsWrapper = styled.div`
       hsl(111, 100%, 90%),
       hsl(179, 100%, 30%)
     );
-    z-index: 1;
-
-    &:hover {
-      //transition: all 0.4s ease-in-out;
-
-      //background: white;
-      //background: #4c4c4c;
-      //background: #ecfff7;
-
-      //background: #cbf2cd;
-      //background: #cce1cd;
-      /* color: #00ccff; */
-    }
   }
 
   .projectInfo::before {

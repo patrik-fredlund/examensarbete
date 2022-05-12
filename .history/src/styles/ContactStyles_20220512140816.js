@@ -10,17 +10,8 @@ export const ContactContainer = styled.div`
   line-height: 2em;
   //margin-right: 10px;
 
-  h3:nth-child(1) {
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 200;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -20px;
-  }
-
   h3 {
-    //font-size: 20px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 300;
     text-align: center;

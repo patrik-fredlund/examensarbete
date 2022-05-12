@@ -16,7 +16,6 @@ export const ContactContainer = styled.div`
     font-weight: 200;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: -20px;
   }
 
   h3 {

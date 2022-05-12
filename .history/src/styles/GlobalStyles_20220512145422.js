@@ -331,23 +331,19 @@ export const ProjectsWrapper = styled.div`
   width: 100%;
   z-index: 1;
   margin-top: 50px;
-
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
 
   .projectContainer {
     border: 1px solid lightgrey;
     display: flex;
-    width: 900px;
+    width: 800px;
     height: 500px;
     padding: 20px;
-
     //margin: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: all 0.6s ease-in-out;
-    margin-bottom: 50px;
 
     &:hover {
       transition: all 0.6s ease-in-out;
@@ -359,7 +355,7 @@ export const ProjectsWrapper = styled.div`
       background: #e3fae4;
       padding: 15px;
       //margin-top: 10px;
-      width: 910px;
+      width: 810px;
       height: 500px;
 
       /* color: #00ccff; */
@@ -368,31 +364,15 @@ export const ProjectsWrapper = styled.div`
 
   @media screen and (max-width: 900px) {
     .projectContainer {
-      //border: 5px solid pink;
+      border: 5px solid pink;
 
       display: flex;
       //flex-wrap: wrap;
       flex-direction: column;
       height: 100%;
-      width: 100%;
-      min-height: 500px;
+      width: 700px;
+
       align-items: center;
-
-      &:hover {
-        transition: all 0.6s ease-in-out;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        //background: white;
-        //background: #e3fae4;
-        background: #e3fae4;
-        padding: 15px;
-        //margin-top: 10px;
-        height: 100%;
-        width: 100%;
-
-        /* color: #00ccff; */
-      }
     }
   }
 
@@ -417,12 +397,12 @@ export const ProjectsWrapper = styled.div`
   }
 
   .projectInfo {
-    //border: 1px solid pink;
+    border: 1px solid pink;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;
@@ -469,7 +449,7 @@ export const ProjectsWrapper = styled.div`
 
   @media screen and (max-width: 900px) {
     .projectInfo {
-      //border: 5px solid pink;
+      border: 5px solid pink;
 
       display: flex;
       //flex-wrap: wrap;
@@ -490,7 +470,7 @@ export const ProjectsWrapper = styled.div`
 
   @media screen and (max-width: 900px) {
     .freshkeeper {
-      width: 300px;
+      width: 100px;
       height: 100%;
     }
   }

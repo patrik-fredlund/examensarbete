@@ -331,7 +331,7 @@ export const ProjectsWrapper = styled.div`
   width: 100%;
   z-index: 1;
   margin-top: 50px;
-
+  margin: 20px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -359,7 +359,7 @@ export const ProjectsWrapper = styled.div`
       background: #e3fae4;
       padding: 15px;
       //margin-top: 10px;
-      width: 910px;
+      width: 810px;
       height: 500px;
 
       /* color: #00ccff; */
@@ -422,7 +422,7 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;

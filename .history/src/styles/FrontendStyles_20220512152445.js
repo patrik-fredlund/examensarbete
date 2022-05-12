@@ -191,7 +191,7 @@ export const FrontensProjectsWrapper = styled.div`
     }
   }
 
-  .frontendProjectInfo::before {
+  .projectInfo::before {
     position: absolute;
     content: '';
     top: 0;
@@ -208,7 +208,7 @@ export const FrontensProjectsWrapper = styled.div`
     opacity: 0;
   }
 
-  .frontendProjectInfo:hover::before {
+  .projectInfo:hover::before {
     opacity: 1;
   }
 

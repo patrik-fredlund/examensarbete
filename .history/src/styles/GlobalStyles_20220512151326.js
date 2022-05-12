@@ -359,7 +359,7 @@ export const ProjectsWrapper = styled.div`
       background: #e3fae4;
       padding: 15px;
       //margin-top: 10px;
-      width: 910px;
+      width: 810px;
       height: 500px;
 
       /* color: #00ccff; */
@@ -417,12 +417,12 @@ export const ProjectsWrapper = styled.div`
   }
 
   .projectInfo {
-    //border: 1px solid pink;
+    border: 1px solid pink;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //background-color: #e4f1eb;
+    background-color: #e4f1eb;
     //transition: all 0.4s ease-in-out;
     position: relative;
     min-height: 200px;
