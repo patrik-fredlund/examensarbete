@@ -238,10 +238,12 @@ export const FrontensProjectsWrapper = styled.div`
   }
 `;
 
-//------------Fetch all github repos------------//
+//----------github repos----------//
 
 export const ProjectWrapper = styled.div`
+  //border: 1px solid red;
   display: flex;
+
   justify-content: center;
 
   @media screen and (max-width: 768px) {
@@ -251,6 +253,7 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectContainer = styled.div`
+  //border: 1px solid green;
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -290,15 +293,9 @@ export const StyledCardContainer = styled.div`
   font-weight: 100;
   margin-left: 10px;
 
+  & > h3,
   p {
     color: black;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    font-weight: 300;
-  }
-
-  h3 {
-    font-weight: 600;
     margin-left: 10px;
     margin-bottom: 15px;
   }

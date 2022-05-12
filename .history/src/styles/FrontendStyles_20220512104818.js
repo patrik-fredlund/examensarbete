@@ -33,11 +33,10 @@ export const FrontensProjectsWrapper = styled.div`
       //height: 1700px;
       display: flex;
       height: auto;
-      width: 400px;
+      width: 450px;
       //margin-right: 50px;
       margin-top: 0;
       margin-bottom: 30px;
-      margin-right: 0;
     }
   }
   .unscriptedImg {
@@ -46,20 +45,6 @@ export const FrontensProjectsWrapper = styled.div`
     width: auto;
     margin-right: 50px;
     margin-top: 100px;
-  }
-
-  @media screen and (max-width: 900px) {
-    .unscriptedImg {
-      //border: 10px solid red;
-      //height: 1700px;
-      display: flex;
-      height: auto;
-      width: 400px;
-      //margin-right: 50px;
-      margin-top: 0;
-      margin-bottom: 30px;
-      margin-right: 0;
-    }
   }
 
   .frontendProjectsContainer {
@@ -235,82 +220,5 @@ export const FrontensProjectsWrapper = styled.div`
   }
 
   &:hover {
-  }
-`;
-
-//------------Fetch all github repos------------//
-
-export const ProjectWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-
-  @media screen and (max-width: 768px) {
-    justify-content: space-around;
-    align-items: center;
-  }
-`;
-
-export const ProjectContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-  @media screen and (max-width: 480px) {
-    justify-content: center;
-    margin-left: -10px;
-    font-size: 0.8em;
-    width: 300px;
-  }
-`;
-
-export const ProjectsStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 700px;
-
-  @media screen and (max-width: 480px) {
-    justify-content: space-around;
-    flex-direction: column;
-    color: green;
-  }
-`;
-
-export const StyledCardContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-  flex-wrap: wrap;
-  border-bottom: 0.5px solid grey;
-
-  padding: 5px 5px;
-  margin-bottom: 20px;
-  font-weight: 100;
-  margin-left: 10px;
-
-  p {
-    color: black;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    font-weight: 300;
-  }
-
-  h3 {
-    font-weight: 600;
-    margin-left: 10px;
-    margin-bottom: 15px;
-  }
-
-  a {
-    color: black;
-    margin-left: 10px;
-    margin-bottom: 15px;
-  }
-
-  a:hover {
-    color: grey;
-    margin-left: 10px;
   }
 `;

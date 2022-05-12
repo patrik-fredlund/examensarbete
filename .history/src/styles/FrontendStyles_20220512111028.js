@@ -294,7 +294,7 @@ export const StyledCardContainer = styled.div`
     color: black;
     margin-left: 10px;
     margin-bottom: 15px;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   h3 {

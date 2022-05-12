@@ -123,9 +123,8 @@ export const FrontendProjects = () => {
           </div>
         </FrontensProjectsWrapper>
       </Wrapper>
-      {/* Här är mitt backend bidrag, där jag fetchar listan över alla mina github repos från githubs API */}
-      <h1 className='projectTitle'>All Github Projects </h1>
-      <hr />
+
+      <h2 className='someWork'>All Github Projects</h2>
       <ProjectWrapper>
         <ProjectContainer>
           <ProjectsStyle>

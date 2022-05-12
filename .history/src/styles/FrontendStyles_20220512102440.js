@@ -26,20 +26,6 @@ export const FrontensProjectsWrapper = styled.div`
     margin-right: 50px;
     margin-top: 100px;
   }
-
-  @media screen and (max-width: 900px) {
-    .diabloImg {
-      //border: 10px solid red;
-      //height: 1700px;
-      display: flex;
-      height: auto;
-      width: 400px;
-      //margin-right: 50px;
-      margin-top: 0;
-      margin-bottom: 30px;
-      margin-right: 0;
-    }
-  }
   .unscriptedImg {
     //margin-top: 60px;
     height: 240px;
@@ -48,25 +34,11 @@ export const FrontensProjectsWrapper = styled.div`
     margin-top: 100px;
   }
 
-  @media screen and (max-width: 900px) {
-    .unscriptedImg {
-      //border: 10px solid red;
-      //height: 1700px;
-      display: flex;
-      height: auto;
-      width: 400px;
-      //margin-right: 50px;
-      margin-top: 0;
-      margin-bottom: 30px;
-      margin-right: 0;
-    }
-  }
-
   .frontendProjectsContainer {
     border: 1px solid grey;
     display: flex;
 
-    max-width: 900px;
+    width: 900px;
     height: 500px;
 
     padding: 20px;
@@ -91,31 +63,15 @@ export const FrontensProjectsWrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 768px) {
     .frontendProjectsContainer {
       border: 5px solid pink;
       //height: 1700px;
       display: flex;
-      align-items: center;
       //flex-wrap: wrap;
       flex-direction: column;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-
-      &:hover {
-        transition: all 0.6s ease-in-out;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        //background: white;
-        //background: #e3fae4;
-        background: #e3fae4;
-        padding: 15px;
-        //margin-top: 10px;
-        width: 100%;
-        height: 100%;
-      }
+      width: 900px;
+      height: 1000px;
     }
   }
 
@@ -144,21 +100,6 @@ export const FrontensProjectsWrapper = styled.div`
 
     a {
       margin-top: 20px;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    .frontendCard {
-      //border: 1px solid green;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      //align-items: center;
-
-      //background-color: green;
-      //margin: 30px;
-      width: 100%;
     }
   }
 
@@ -193,16 +134,14 @@ export const FrontensProjectsWrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 768px) {
     .frontendProjectInfo {
-      //border: 5px solid pink;
+      border: 5px solid pink;
       //height: 1700px;
       display: flex;
       //flex-wrap: wrap;
       flex-direction: column;
-      align-items: center;
       height: 100%;
-      width: 100%;
     }
   }
 
@@ -235,82 +174,5 @@ export const FrontensProjectsWrapper = styled.div`
   }
 
   &:hover {
-  }
-`;
-
-//------------Fetch all github repos------------//
-
-export const ProjectWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-
-  @media screen and (max-width: 768px) {
-    justify-content: space-around;
-    align-items: center;
-  }
-`;
-
-export const ProjectContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-  @media screen and (max-width: 480px) {
-    justify-content: center;
-    margin-left: -10px;
-    font-size: 0.8em;
-    width: 300px;
-  }
-`;
-
-export const ProjectsStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 700px;
-
-  @media screen and (max-width: 480px) {
-    justify-content: space-around;
-    flex-direction: column;
-    color: green;
-  }
-`;
-
-export const StyledCardContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-  flex-wrap: wrap;
-  border-bottom: 0.5px solid grey;
-
-  padding: 5px 5px;
-  margin-bottom: 20px;
-  font-weight: 100;
-  margin-left: 10px;
-
-  p {
-    color: black;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    font-weight: 300;
-  }
-
-  h3 {
-    font-weight: 600;
-    margin-left: 10px;
-    margin-bottom: 15px;
-  }
-
-  a {
-    color: black;
-    margin-left: 10px;
-    margin-bottom: 15px;
-  }
-
-  a:hover {
-    color: grey;
-    margin-left: 10px;
   }
 `;

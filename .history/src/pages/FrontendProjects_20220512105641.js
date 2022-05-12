@@ -121,11 +121,35 @@ export const FrontendProjects = () => {
               />
             </div>
           </div>
+
+          {/*         <ProjectItemCard>
+          <a href='https://penapp.netlify.app/'>
+            <h2>Quire - A Noteapp</h2>
+            <h4>Teamproject In School </h4>
+            <p>
+              The brief was to create a basic note-taking app without using any
+              major JS framework. It listed a set of specified features, such as
+              being able to favorite notes, simpler styling and saving notes in
+              local storage.
+            </p>
+            <img
+              className='projectImg'
+              src='https://user-images.githubusercontent.com/70227819/125462421-d1fbb5cc-5a1f-4644-b6cd-b24237bcd033.png'
+              alt='images of diablo site'
+            />
+          </a>
+          <a
+            className='githubLink'
+            href='https://github.com/patrik-fredlund/TeamPrpject1_Quire'
+          >
+            Link To Github Repo
+          </a>
+        </ProjectItemCard> 
+          {/*  </ProjectPickWrapper> */}
         </FrontensProjectsWrapper>
       </Wrapper>
-      {/* Här är mitt backend bidrag, där jag fetchar listan över alla mina github repos från githubs API */}
-      <h1 className='projectTitle'>All Github Projects </h1>
-      <hr />
+
+      {/*      <h2 className='someWork'>All Github Projects</h2>
       <ProjectWrapper>
         <ProjectContainer>
           <ProjectsStyle>
@@ -138,7 +162,7 @@ export const FrontendProjects = () => {
             ))}
           </ProjectsStyle>
         </ProjectContainer>
-      </ProjectWrapper>
+      </ProjectWrapper> */}
     </>
   );
 };
