@@ -480,37 +480,13 @@ export const FreshkeeperProject = () => {
           Create a prototype of the Apps main userflow
         </p>
         <p className='ingressParagraph'>
-          First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype inside
-          Figma. Here's the final result:
+          FirstI made some low-fi sketches to where I wanted them, then I began
+          creating the high-fidelity wireframe/prototype inside figma. Here, is
+          where the UI starts to come together and I was careful to stay within
+          the parameters of the already established branding of the Chase app. I
+          wanted to be sure I stuck to the original task of making sure the new
+          tool embedded well and smoothly with the rest of the app.
         </p>
-        <div className='screeenShotsWrapper'>
-          <img
-            className='iphone'
-            src={require('../Images/iphone_start.png')}
-            alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_storage4.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_add3.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
-            alt='image of the freshkepper app'
-          />
-        </div>
       </UxProject>
     </Wrapper>
   );

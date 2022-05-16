@@ -487,27 +487,22 @@ export const FreshkeeperProject = () => {
         <div className='screeenShotsWrapper'>
           <img
             className='iphone'
-            src={require('../Images/iphone_start.png')}
-            alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
+            src={require('../Images/iphone_login.png')}
             alt='image of the freshkepper app'
           />
           <img
             className='iphone'
-            src={require('../Images/iphone_storage4.png')}
+            src={require('../Images/iphone_storage1.png')}
             alt='image of the freshkepper app'
           />
           <img
             className='iphone'
-            src={require('../Images/iphone_add3.png')}
+            src={require('../Images/iphone_login.png')}
             alt='image of the freshkepper app'
           />
           <img
             className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
+            src={require('../Images/iphone_login.png')}
             alt='image of the freshkepper app'
           />
         </div>

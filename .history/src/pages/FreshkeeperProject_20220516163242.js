@@ -87,7 +87,15 @@ export const FreshkeeperProject = () => {
             </p>
           </div>
         </div>
-        <p className='subHeader'>The main two features of this app would be:</p>
+        <p className='subHeader'>
+          The main two features of this app would be:
+          {/*        <ul>
+            <li>
+              Register the food in the app and put a best-before date on it.
+            </li>
+            <li>Get a reminder when the date starts to approach.</li>
+          </ul>{' '} */}
+        </p>
 
         <div className='postItContainer'>
           <div className='postItNotes'>
@@ -473,44 +481,6 @@ export const FreshkeeperProject = () => {
           alt='image of the freshkepper app'
         />
         <p className='imgText'> Screenshot from the name workshop</p>
-        <hr />
-        <h1 className='projectTitle'>Develop</h1>
-        <hr />
-        <p className='subHeader'>
-          Create a prototype of the Apps main userflow
-        </p>
-        <p className='ingressParagraph'>
-          First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype inside
-          Figma. Here's the final result:
-        </p>
-        <div className='screeenShotsWrapper'>
-          <img
-            className='iphone'
-            src={require('../Images/iphone_start.png')}
-            alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_storage4.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_add3.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
-            alt='image of the freshkepper app'
-          />
-        </div>
       </UxProject>
     </Wrapper>
   );

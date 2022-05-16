@@ -481,36 +481,14 @@ export const FreshkeeperProject = () => {
         </p>
         <p className='ingressParagraph'>
           First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype inside
-          Figma. Here's the final result:
+          wanted them, then I began created a high-fidelity wireframe/prototype
+          inside Figma. Here's the final result:
         </p>
-        <div className='screeenShotsWrapper'>
-          <img
-            className='iphone'
-            src={require('../Images/iphone_start.png')}
-            alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_storage4.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_add3.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
-            alt='image of the freshkepper app'
-          />
-        </div>
+        <img
+          className='functionsImg'
+          src={require('../Images/iphone_login.png')}
+          alt='image of the freshkepper app'
+        />
       </UxProject>
     </Wrapper>
   );

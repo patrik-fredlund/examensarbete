@@ -481,36 +481,16 @@ export const FreshkeeperProject = () => {
         </p>
         <p className='ingressParagraph'>
           First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype inside
-          Figma. Here's the final result:
+          wanted them, then I began created a high-fidelity wireframe/prototype
+          inside Figma. Here's the final result:
+          <iframe
+            style='border: 1px solid rgba(0, 0, 0, 0.1);'
+            width='800'
+            height='450'
+            src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzWpKIvm4yNpET9vncWsbE3%2FMatsvinn_skiss_prototyp%3Fpage-id%3D0%253A1%26node-id%3D27%253A306%26viewport%3D311%252C488%252C0.25%26scaling%3Dcontain%26starting-point-node-id%3D18%253A43%26show-proto-sidebar%3D1'
+            allowfullscreen
+          ></iframe>
         </p>
-        <div className='screeenShotsWrapper'>
-          <img
-            className='iphone'
-            src={require('../Images/iphone_start.png')}
-            alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_storage4.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_add3.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
-            alt='image of the freshkepper app'
-          />
-        </div>
       </UxProject>
     </Wrapper>
   );

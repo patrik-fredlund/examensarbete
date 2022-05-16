@@ -489,15 +489,10 @@ export const FreshkeeperProject = () => {
             className='iphone'
             src={require('../Images/iphone_start.png')}
             alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
-            alt='image of the freshkepper app'
           />
           <img
             className='iphone'
-            src={require('../Images/iphone_storage4.png')}
+            src={require('../Images/iphone_storage3.png')}
             alt='image of the freshkepper app'
           />
           <img
@@ -507,7 +502,7 @@ export const FreshkeeperProject = () => {
           />
           <img
             className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
+            src={require('../Images/iphone_shoppinglist1.png')}
             alt='image of the freshkepper app'
           />
         </div>

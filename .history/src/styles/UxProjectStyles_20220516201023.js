@@ -327,18 +327,18 @@ export const UxProject = styled.div`
   }
 
   .screeenShotsWrapper {
-    //border: 1px solid red;
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1600px;
+    max-width: 1500px;
     justify-content: center;
   }
   .iphone {
-    //border: 1px solid red;
+    border: 1px solid red;
     display: flex;
-    max-width: 300px;
-    //::cue-regionmin-width: 300px;
-    padding: 30px;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 40px;
   }
 `;

@@ -480,36 +480,21 @@ export const FreshkeeperProject = () => {
           Create a prototype of the Apps main userflow
         </p>
         <p className='ingressParagraph'>
-          First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype inside
-          Figma. Here's the final result:
+          First part of the dicovery was to choose a problem to solve with food
+          consumption. We decided to focus on food waste because according to
+          the National Food Administration:
         </p>
-        <div className='screeenShotsWrapper'>
-          <img
-            className='iphone'
-            src={require('../Images/iphone_start.png')}
-            alt='image of the freshkepper app'
-          />{' '}
-          <img
-            className='iphone'
-            src={require('../Images/iphone_login2.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_storage4.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_add3.png')}
-            alt='image of the freshkepper app'
-          />
-          <img
-            className='iphone'
-            src={require('../Images/iphone_shoppinglist3.png')}
-            alt='image of the freshkepper app'
-          />
+        <div className='uxProjectWrapperYellow'>
+          <div className='uxProjectContainer'>
+            <p className='posItText'>
+              Approximately 19 kilos of edible food are thrown in the rubbish
+              and 26 kilos of food and drink are poured into the bin. The
+              figures apply per person and year.{' '}
+              <span className='bold'>
+                Much of the food is thrown away because it is not eaten in time.
+              </span>
+            </p>
+          </div>
         </div>
       </UxProject>
     </Wrapper>
