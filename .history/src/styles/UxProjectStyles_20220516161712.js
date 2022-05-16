@@ -277,12 +277,6 @@ export const UxProject = styled.div`
     margin-top: 40px;
   }
 
-  @media screen and (max-width: 480px) {
-    .painGainWrapper {
-      padding: 0 15px 0 15px;
-    }
-  }
-
   .painGainContainer {
     //border: 1px solid red;
     background-color: #ff7eb9;
@@ -301,7 +295,7 @@ export const UxProject = styled.div`
     margin-top: 40px;
   }
   .insightsContainer {
-    //border: 10px solid red;
+    //border: 1px solid red;
     background-color: #ff7eb9;
     padding: 40px;
     padding-bottom: 40px;

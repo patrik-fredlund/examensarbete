@@ -70,12 +70,6 @@ export const UxProject = styled.div`
     margin-bottom: 30px;
   }
 
-  @media screen and (max-width: 480px) {
-    .projectTitle {
-      font-size: 40px;
-    }
-  }
-
   .projectSubTitle {
     text-align: center;
     font-size: 40px;
@@ -124,14 +118,7 @@ export const UxProject = styled.div`
     font-weight: 300;
     line-height: 40px;
     margin-bottom: 40px;
-
     //margin-top: 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .MiddleIngressParagraph {
-      padding: 0 15px 0 15px;
-    }
   }
 
   .posItText {
@@ -219,45 +206,31 @@ export const UxProject = styled.div`
   }
 
   .reviews {
-    border: 1px solid red;
+    //border: 1px solid red;
     //background-color: #ff65a3;
     margin-top: 20px;
     width: 100%;
     padding: 20px;
-    text-align: center;
   }
 
   .canvas {
-    border: 1px solid red;
+    //border: 1px solid red;
     //background-color: #ff65a3;
     margin-top: 20px;
     width: 70%;
     padding: 20px;
-    text-align: center;
   }
 
   .userflowImg {
-    border: 1px solid red;
+    //border: 1px solid red;
     //background-color: #ff65a3;
     margin-top: 20px;
     width: 100%;
     padding: 20px;
-    text-align: center;
-  }
-
-  .functionsImg {
-    border: 1px solid red;
-    //background-color: #ff65a3;
-    margin-top: 20px;
-    width: 70%;
-    padding: 20px;
-    text-align: center;
   }
 
   .imgText {
     font-size: 16px;
-    text-align: center;
-    margin-bottom: 30px;
   }
 
   .painsList {
@@ -275,12 +248,6 @@ export const UxProject = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .painGainWrapper {
-      padding: 0 15px 0 15px;
-    }
   }
 
   .painGainContainer {
@@ -301,7 +268,7 @@ export const UxProject = styled.div`
     margin-top: 40px;
   }
   .insightsContainer {
-    //border: 10px solid red;
+    //border: 1px solid red;
     background-color: #ff7eb9;
     padding: 40px;
     padding-bottom: 40px;
@@ -314,15 +281,5 @@ export const UxProject = styled.div`
       /* font-weight: 600; */
       margin-bottom: 20px;
     }
-  }
-
-  .competitorsContainer {
-    //border: 1px solid red;
-    display: flex;
-    //flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 40px;
-    align-items: center;
   }
 `;

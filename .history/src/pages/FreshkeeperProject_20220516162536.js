@@ -305,7 +305,8 @@ export const FreshkeeperProject = () => {
             </ul>
           </div>
         </div>
-
+      </UxProject>
+      <UxProject>
         {/* ------------------- */}
 
         <h1 className='projectTitle'>Define features</h1>

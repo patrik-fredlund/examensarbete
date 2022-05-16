@@ -124,14 +124,9 @@ export const UxProject = styled.div`
     font-weight: 300;
     line-height: 40px;
     margin-bottom: 40px;
+    padding: 0 15px 0 15px;
 
     //margin-top: 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .MiddleIngressParagraph {
-      padding: 0 15px 0 15px;
-    }
   }
 
   .posItText {
@@ -277,12 +272,6 @@ export const UxProject = styled.div`
     margin-top: 40px;
   }
 
-  @media screen and (max-width: 480px) {
-    .painGainWrapper {
-      padding: 0 15px 0 15px;
-    }
-  }
-
   .painGainContainer {
     //border: 1px solid red;
     background-color: #ff7eb9;
@@ -301,7 +290,7 @@ export const UxProject = styled.div`
     margin-top: 40px;
   }
   .insightsContainer {
-    //border: 10px solid red;
+    //border: 1px solid red;
     background-color: #ff7eb9;
     padding: 40px;
     padding-bottom: 40px;
@@ -317,7 +306,7 @@ export const UxProject = styled.div`
   }
 
   .competitorsContainer {
-    //border: 1px solid red;
+    border: 1px solid red;
     display: flex;
     //flex-wrap: wrap;
     justify-content: center;

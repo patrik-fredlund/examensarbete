@@ -51,7 +51,6 @@ export const FreshkeeperProject = () => {
             </p>
           </div>
         </div>
-
         <h1 className='projectTitle'>Discover</h1>
         <hr />
         <p className='subHeader'>Part 1 - Explore Ideas</p>
@@ -96,22 +95,22 @@ export const FreshkeeperProject = () => {
             <li>Get a reminder when the date starts to approach.</li>
           </ul>{' '} */}
         </p>
-
-        <div className='postItContainer'>
-          <div className='postItNotes'>
-            <h2 className='postItTitle'> Register</h2>
-            <p className='postItText'>
-              Register the food in the app and put a best-before date on it.
-            </p>
-          </div>
-          <div className='postItNotes'>
-            <h2 className='postItTitle'>Reminder </h2>
-            <p className='postItText'>
-              Get a reminder when the date starts to approach.
-            </p>
+        <div className='postItWrapper'>
+          <div className='postItContainer'>
+            <div className='postItNotes'>
+              <h2 className='postItTitle'> Register</h2>
+              <p className='postItText'>
+                Register the food in the app and put a best-before date on it.
+              </p>
+            </div>
+            <div className='postItNotes'>
+              <h2 className='postItTitle'>Reminder </h2>
+              <p className='postItText'>
+                Get a reminder when the date starts to approach.
+              </p>
+            </div>
           </div>
         </div>
-
         <p className='MiddleIngressParagraph'>
           That's the basic idea of the app and the two main features. with this
           in mind the next step of the discovery was to do a competitor
@@ -120,7 +119,7 @@ export const FreshkeeperProject = () => {
         <hr></hr>
         <div className='competitorsContainer'>
           <p className='subHeader'>
-            Part 1.2 - competitor & target group analysis
+            Part 2 - competitor & target group analysis
           </p>
           <h2 className='projectTitle'>competitor analysis</h2>
           <p className='MiddleIngressParagraph'>
@@ -146,7 +145,6 @@ export const FreshkeeperProject = () => {
             </p>
           </p>
         </div>
-
         <h2 className='projectSubTitle'>competitors Pains & Gains</h2>
         <div className='painGainWrapper'>
           <div className='painGainContainer'>
@@ -174,7 +172,6 @@ export const FreshkeeperProject = () => {
             </ul>
           </div>
         </div>
-
         <h2 className='projectTitle'>Target group analysis</h2>
         <p className='MiddleIngressParagraph'>
           For the target group analysis I choose to do a Survey and interviews.
@@ -232,8 +229,7 @@ export const FreshkeeperProject = () => {
           it's time to define these insights and se what they really mean.
         </p>
         <hr />
-      </UxProject>
-      <UxProject>
+
         <h1 className='projectTitle'>Define</h1>
         <hr />
         <p className='subHeader'>Part 2.1 - Define the target group</p>
@@ -304,177 +300,29 @@ export const FreshkeeperProject = () => {
               <li>Be able to create your own categories</li>
             </ul>
           </div>
+          <p className='subHeader'>
+            Part 2.2 - Define the functions & features of the App
+          </p>
+          <h2 className='projectTitle'>Define features</h2>
+          <p className='ingressParagraph'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+            reprehenderit exercitationem, beatae esse commodi qui magni error
+            dolor alias provident consectetur magnam cumque temporibus id quasi
+            porro, suscipit rerum quidem!
+          </p>
+          <h2 className='projectSubTitle'>
+            All functions of the App in order of importance
+          </h2>
+          <img
+            className='reviews'
+            src={require('../Images/functions1.png')}
+            alt='image of the freshkepper app'
+          />
+          <p className='imgText'>
+            {' '}
+            Screenshot of the functions of the app in order of importance.
+          </p>
         </div>
-
-        {/* ------------------- */}
-
-        <h1 className='projectTitle'>Define features</h1>
-        <hr />
-        <p className='subHeader'>
-          Part 2.2 - Define the functions & features of the App
-        </p>
-
-        <p className='ingressParagraph'>
-          I'we already decied about the main features of the app:
-          <ul className='painsList'>
-            <li>Register item and add expiration date</li>
-            <li> Get an reminder when the date is close</li>
-          </ul>
-          From the target group research I also got alot of useful feedback as
-          to what's imoportant to them when using these features. So now it's
-          time to develop those features in detail to reach the user needs. From
-          the feedback I also learned that the user would value additional
-          features of the App. First step is to write down all features in order
-          of importance.
-        </p>
-
-        <h2 className='projectSubTitle'>
-          All functions of the App in order of importance
-        </h2>
-        <img
-          className='functionsImg'
-          src={require('../Images/functions1.png')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'>
-          {' '}
-          Screenshot of the functions of the app in order of importance.
-        </p>
-        <p className='ingressParagraph'>
-          Next step is to focus on the prioritzed features and develop those in
-          detail to create the main user flow. I'we decided to write it down,
-          like in the screenshot below, as a first step to get a clear view of
-          each part.
-        </p>
-        <h2 className='projectSubTitle'>
-          Development of the prioritized functions in detail
-        </h2>
-        <img
-          className='functionsImg'
-          src={require('../Images/functions2.png')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'>
-          {' '}
-          Screenshot of the prioritized functions in detail.
-        </p>
-        <p className='ingressParagraph'>
-          Next step is create a scetch of the main userflow, to get a sence of
-          the journey and to see if it's working as planned.
-        </p>
-        <h2 className='projectSubTitle'>Main userflow</h2>
-        <img
-          className='functionsImg'
-          src={require('../Images/freshkeeper_userflow.jpg')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot of the main userflow.</p>
-        <p className='ingressParagraph'>
-          For me it's satisfying to see this value cycle below. It's the idea of
-          this app as it is your storage and shoppinglist. So ehiter you have
-          the food item at home, or you add it to your shoppinglist when it runs
-          out.
-        </p>
-        <h2 className='projectSubTitle'>Cycle of user value simplified</h2>
-        <img
-          className='functionsImg'
-          src={require('../Images/freshkeeper_circle.jpg')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot of cycle of user value</p>
-        <h2 className='projectSubTitle'>Development of the Userflow</h2>
-        <p className='ingressParagraph'>
-          Next step is to create the final userflow in with all parts. This will
-          be the guidline and map for the prototype.
-        </p>
-        <img
-          className='functionsImg'
-          src={require('../Images/userflow_complete.png')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot of the userflow</p>
-        <h1 className='projectTitle'>Name of the App</h1>
-        <hr />
-        {/*  <p className='subHeader'>Part 2.3 - Define the target group</p> */}
-        <p className='ingressParagraph'>
-          Now it's time to find a suitable name for the App. I allways loved
-          this part in graphic design and branding, and it's no difference with
-          UX. I had a brainstorm session and started with writting down words,
-          feelings and things that can be assosiated with this subject, to build
-          a tree of names, if you will, and in the end the perfect name will
-          appear and blom, so to speak. If it's possible the name needs to tick
-          all the boxes of the features of the App. I started with writting down
-          words realted to the subject:
-        </p>
-        <div className='insightsWrapper'>
-          <div className='insightsContainer'>
-            <h1>If it's a place</h1>
-            <ul className='painsList'>
-              <li>Stash</li>
-              <li>Shelf</li>
-              <li>Inventory</li>
-              <li>Central</li>
-              <li>Hub</li>
-              <li>Cloud</li>
-              <li>Kitchen</li>
-              <li>Platform</li>
-              <li>Station</li>
-              <li>Space</li>
-            </ul>
-          </div>
-
-          <div className='insightsContainer'>
-            <h1>If it's a person</h1>
-            <ul className='painsList'>
-              <li>Buddy</li>
-              <li>Pal</li>
-              <li>Shelback</li>
-              <li>Help</li>
-              <li>Assistant</li>
-              <li>Sous Chef</li>
-              <li>Sidekick</li>
-              <li>Manager</li>
-              <li>Keeper</li>
-            </ul>
-          </div>
-
-          <div className='insightsContainer'>
-            <h1>If it's the value of the App</h1>
-            <ul className='painsList'>
-              <li>Long last</li>
-              <li>Date keeper</li>
-              <li>Taste</li>
-              <li>Save</li>
-              <li>Fresh</li>
-              <li>Organize</li>
-            </ul>
-          </div>
-        </div>
-        <h2 className='projectSubTitle'>Name workhop</h2>
-        <p className='ingressParagraph'>
-          With those words in mind from the brainstorm, next step was to write
-          down name suggestions that would apply to the value of the App to
-          define what it is. It needs to be simple and traight to the point to
-          communicate directly to the target group.
-        </p>
-        <img
-          className='functionsImg'
-          src={require('../Images/names.png')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot from the name workshop</p>
-        <p className='ingressParagraph'>
-          From the workhop these four where my favorites. If I had time I would
-          at this stage do a user test and ask the user which where thier
-          favorite name.
-        </p>
-        <img
-          className='functionsImg'
-          src={require('../Images/4names.png')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot from the name workshop</p>
-
         {/* 
         <div className='competitorsContainer'>
           <p className='subHeader'>
