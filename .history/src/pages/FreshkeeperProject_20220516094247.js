@@ -232,7 +232,7 @@ export const FreshkeeperProject = () => {
 
         <h1 className='projectTitle'>Define</h1>
         <hr />
-        <p className='subHeader'>Part 2.1 - Define the target group</p>
+        <p className='subHeader'>Part 1 - Define the target group</p>
         <p className='ingressParagraph'>
           According to the surrvey the target group is:
         </p>
@@ -303,52 +303,30 @@ export const FreshkeeperProject = () => {
         </div>
         <div className='competitorsContainer'>
           <p className='subHeader'>
-            Part 2.2 - Define the functions & features of the App
+            Part 2 - competitor & target group analysis
           </p>
           <h2 className='projectTitle'>Define features</h2>
           <p className='MiddleIngressParagraph'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-            reprehenderit exercitationem, beatae esse commodi qui magni error
-            dolor alias provident consectetur magnam cumque temporibus id quasi
-            porro, suscipit rerum quidem!
-            <h2 className='projectSubTitle'>
-              All functions of the App in order of importance
-            </h2>
+            After searching the web for similar apps I found that{' '}
+            <span className='bold'>Fridge buddy,</span>
+            <span className='bold'> Beep</span> and
+            <span className='bold'> Fridgely </span> are the main competitors.{' '}
+            <br />
+            To learn from them I decided to go directly to their users by
+            reading the customer reviews of those apps. In that way I could get
+            insight in the users <span className='bold'>pains</span> and{' '}
+            <span className='bold'>gains</span> when using that app, and use
+            that to my advantage. I would also get valuble knowledge of the user
+            needs when using an app like this.
             <img
               className='reviews'
-              src={require('../Images/functions1.png')}
+              src={require('../Images/reviews.jpg')}
               alt='image of the freshkepper app'
             />
             <p className='imgText'>
               {' '}
-              Screenshot of the functions of the app in order of importance.
+              sample from the user reviews. useful insights highlighted in red
             </p>
-            <h2 className='projectSubTitle'>
-              Development of the prioritized functions in detail
-            </h2>
-            <img
-              className='reviews'
-              src={require('../Images/functions2.png')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'>
-              {' '}
-              Screenshot of the prioritized functions in detail.
-            </p>
-            <h2 className='projectSubTitle'>Main userflow</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_userflow.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
-            <h2 className='projectSubTitle'>Complete circle of value</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_circle.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
           </p>
         </div>
       </UxProject>

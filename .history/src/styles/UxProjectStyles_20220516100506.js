@@ -219,13 +219,6 @@ export const UxProject = styled.div`
     padding: 20px;
   }
 
-  .userflowImg {
-    border: 1px solid red;
-    margin-top: 20px;
-    width: 100%;
-    padding: 20px;
-  }
-
   .imgText {
     font-size: 16px;
   }

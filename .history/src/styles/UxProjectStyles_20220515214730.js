@@ -76,7 +76,6 @@ export const UxProject = styled.div`
     font-weight: 200;
     margin-top: 20px;
     margin-bottom: 30px;
-    line-height: 50px;
   }
 
   h1 {
@@ -216,13 +215,6 @@ export const UxProject = styled.div`
     border: 1px solid red;
     margin-top: 20px;
     width: 70%;
-    padding: 20px;
-  }
-
-  .userflowImg {
-    border: 1px solid red;
-    margin-top: 20px;
-    width: 100%;
     padding: 20px;
   }
 

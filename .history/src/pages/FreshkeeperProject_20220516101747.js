@@ -335,20 +335,6 @@ export const FreshkeeperProject = () => {
               {' '}
               Screenshot of the prioritized functions in detail.
             </p>
-            <h2 className='projectSubTitle'>Main userflow</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_userflow.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
-            <h2 className='projectSubTitle'>Complete circle of value</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_circle.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
           </p>
         </div>
       </UxProject>

@@ -345,7 +345,7 @@ export const FreshkeeperProject = () => {
             <h2 className='projectSubTitle'>Complete circle of value</h2>
             <img
               className='userflowImg'
-              src={require('../Images/freshkeeper_circle.jpg')}
+              src={require('../Images/freshkeeper_userflow.jpg')}
               alt='image of the freshkepper app'
             />
             <p className='imgText'> Screenshot of the main userflow.</p>

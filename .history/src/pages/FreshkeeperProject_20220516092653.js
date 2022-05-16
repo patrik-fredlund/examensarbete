@@ -232,7 +232,7 @@ export const FreshkeeperProject = () => {
 
         <h1 className='projectTitle'>Define</h1>
         <hr />
-        <p className='subHeader'>Part 2.1 - Define the target group</p>
+        <p className='subHeader'>Part 1 - Define the target group</p>
         <p className='ingressParagraph'>
           According to the surrvey the target group is:
         </p>
@@ -256,100 +256,37 @@ export const FreshkeeperProject = () => {
           {' '}
           Value proposition canvas of the users pains, gains and needs
         </p>
-        <p className='MiddleIngressParagraph'></p>
-        <h2 className='projectSubTitle'>
-          Pains, gains and needs of the target group
-        </h2>
+        <h2 className='projectSubTitle'>Insights</h2>
         <div className='insightsWrapper'>
           <div className='insightsContainer'>
             <h1>Pains</h1>
             <ul className='painsList'>
-              <li>extra process</li>
-              <li>Elaborate</li>
-              <li>There are similar services, which are troublesome</li>
-              <li>Accustomed to another routine</li>
-              <li>
-                Can create a bad conscience ("damn now I threw my jaw again")
-              </li>
+              <li>18-45 year old environmentally conscious city dwellers</li>
+              <li>Healthy</li>
+              <li>Educated</li>
+              <li>Economic</li>
+              <li>Feel free to test new</li>
             </ul>
           </div>
 
           <div className='insightsContainer'>
             <h1>Gains</h1>
-            <ul className='painsList'>
-              <li> Be able to have several users</li>
-              <li>Climate smart</li>
-              <li>Save money</li>
-              <li>inventory assistant</li>
-              <li>New and exciting</li>
-              <li>Practically</li>
-              <li>Dinner planning</li>
-              <li>Reduce food waste at home</li>
-              <li>household tips</li>
-              <li>Healthy</li>
-              <li>get inspiration for dishes</li>
-            </ul>
+            <p>
+              Scanning an food item don't work well, according to the competitor
+              analysis, so it's better to manually register items, but how? This
+              is the most important feature of the app so it need to be easy and
+              quick to do.
+            </p>
           </div>
           <div className='insightsContainer'>
             <h1>Needs</h1>
-            <ul className='painsList'>
-              <li>Clear navigation and design</li>
-              <li> Clean & simple navigation and design</li>
-              <li>Be able to have several users in one account</li>
-              <li>Be able to divide into categories</li>
-              <li>Be able to create your own categories</li>
-            </ul>
+            <p>
+              To more easily find a specific food item in the App and at home.
+              Some user might have might have an extra fridge or storage, so all
+              items are not on the same place. That makes this app an inventory
+              of your food items, which brings more value to the user.
+            </p>
           </div>
-        </div>
-        <div className='competitorsContainer'>
-          <p className='subHeader'>
-            Part 2.2 - Define the functions & features of the App
-          </p>
-          <h2 className='projectTitle'>Define features</h2>
-          <p className='MiddleIngressParagraph'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-            reprehenderit exercitationem, beatae esse commodi qui magni error
-            dolor alias provident consectetur magnam cumque temporibus id quasi
-            porro, suscipit rerum quidem!
-            <h2 className='projectSubTitle'>
-              All functions of the App in order of importance
-            </h2>
-            <img
-              className='reviews'
-              src={require('../Images/functions1.png')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'>
-              {' '}
-              Screenshot of the functions of the app in order of importance.
-            </p>
-            <h2 className='projectSubTitle'>
-              Development of the prioritized functions in detail
-            </h2>
-            <img
-              className='reviews'
-              src={require('../Images/functions2.png')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'>
-              {' '}
-              Screenshot of the prioritized functions in detail.
-            </p>
-            <h2 className='projectSubTitle'>Main userflow</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_userflow.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
-            <h2 className='projectSubTitle'>Complete circle of value</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_circle.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
-          </p>
         </div>
       </UxProject>
     </Wrapper>

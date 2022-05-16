@@ -312,7 +312,7 @@ export const FreshkeeperProject = () => {
             dolor alias provident consectetur magnam cumque temporibus id quasi
             porro, suscipit rerum quidem!
             <h2 className='projectSubTitle'>
-              All functions of the App in order of importance
+              Pains, gains and needs of the target group
             </h2>
             <img
               className='reviews'
@@ -323,32 +323,6 @@ export const FreshkeeperProject = () => {
               {' '}
               Screenshot of the functions of the app in order of importance.
             </p>
-            <h2 className='projectSubTitle'>
-              Development of the prioritized functions in detail
-            </h2>
-            <img
-              className='reviews'
-              src={require('../Images/functions2.png')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'>
-              {' '}
-              Screenshot of the prioritized functions in detail.
-            </p>
-            <h2 className='projectSubTitle'>Main userflow</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_userflow.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
-            <h2 className='projectSubTitle'>Complete circle of value</h2>
-            <img
-              className='userflowImg'
-              src={require('../Images/freshkeeper_circle.jpg')}
-              alt='image of the freshkepper app'
-            />
-            <p className='imgText'> Screenshot of the main userflow.</p>
           </p>
         </div>
       </UxProject>
