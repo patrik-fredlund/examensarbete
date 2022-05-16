@@ -283,13 +283,6 @@ export const UxProject = styled.div`
     text-align: center;
   }
 
-  @media screen and (max-width: 480px) {
-    .canvas {
-      width: 100%;
-      padding: 0;
-    }
-  }
-
   .userflowImg {
     border: 1px solid red;
     //background-color: #ff65a3;
@@ -331,7 +324,7 @@ export const UxProject = styled.div`
   }
 
   .painGainWrapper {
-    //border: 1px solid red;
+    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -356,10 +349,8 @@ export const UxProject = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    .painGainContainer h1,
-    li {
-      margin-left: 20px;
-      margin-right: 20px;
+    .painGainContainer {
+      margin-left: 10px;
     }
   }
 

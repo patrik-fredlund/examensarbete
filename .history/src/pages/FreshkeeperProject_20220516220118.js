@@ -519,12 +519,6 @@ export const FreshkeeperProject = () => {
           wanted them, then I created a high-fidelity wireframe/prototype inside
           Figma. Here's the final result:
         </p>
-        <img
-          className='functionsImg'
-          src={require('../Images/graphic_guidelines.jpg')}
-          alt='image of the freshkepper app'
-        />
-        <p className='imgText'> Screenshot of the graphic guidelines</p>
       </UxProject>
     </Wrapper>
   );

@@ -521,10 +521,10 @@ export const FreshkeeperProject = () => {
         </p>
         <img
           className='functionsImg'
-          src={require('../Images/graphic_guidelines.jpg')}
+          src={require('../Images/freshkeeper_graphic_guidelines.jpg')}
           alt='image of the freshkepper app'
         />
-        <p className='imgText'> Screenshot of the graphic guidelines</p>
+        <p className='imgText'> Screenshot from the name workshop</p>
       </UxProject>
     </Wrapper>
   );

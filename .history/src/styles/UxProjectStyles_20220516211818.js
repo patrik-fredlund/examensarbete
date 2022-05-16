@@ -17,13 +17,6 @@ export const UxProject = styled.div`
     margin-top: -30px;
     margin-bottom: 50px;
   }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapper {
-      margin: 0;
-    }
-  }
-
   .uxProjectWrapperYellow {
     //border: 1px solid red;
     background-color: #feff9c;
@@ -36,13 +29,6 @@ export const UxProject = styled.div`
     //font-weight: 500;
     line-height: 35px;
   }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapperYellow {
-      margin-left: 0;
-      margin-right: 0;
-    }
-  }
   .uxProjectWrapperBlue {
     //border: 1px solid red;
     background-color: #7afcff;
@@ -54,13 +40,6 @@ export const UxProject = styled.div`
     margin-bottom: 50px;
     //font-weight: 500;
     line-height: 35px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapperBlue {
-      margin-left: 0;
-      margin-right: 0;
-    }
   }
 
   .uxProjectContainer {
@@ -76,23 +55,11 @@ export const UxProject = styled.div`
     text-align: left;
   }
 
-  @media screen and (max-width: 480px) {
-    a {
-      margin-left: 10px;
-    }
-  }
-
   .headerTitle {
     margin-top: 20px;
     font-size: 40px;
     font-weight: 900;
     text-align: left;
-  }
-
-  @media screen and (max-width: 480px) {
-    .headerTitle {
-      margin-left: 10px;
-    }
   }
 
   .projectTitle {
@@ -137,13 +104,6 @@ export const UxProject = styled.div`
     margin-top: 50px;
   }
 
-  @media screen and (max-width: 480px) {
-    .explainerText {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
-
   h3 {
     font-weight: 500;
     margin-top: 30px;
@@ -157,13 +117,6 @@ export const UxProject = styled.div`
     line-height: 40px;
     margin-bottom: 40px;
     margin-top: 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .ingressParagraph {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
   }
 
   .MiddleIngressParagraph {
@@ -283,13 +236,6 @@ export const UxProject = styled.div`
     text-align: center;
   }
 
-  @media screen and (max-width: 480px) {
-    .canvas {
-      width: 100%;
-      padding: 0;
-    }
-  }
-
   .userflowImg {
     border: 1px solid red;
     //background-color: #ff65a3;
@@ -311,7 +257,6 @@ export const UxProject = styled.div`
   @media screen and (max-width: 480px) {
     .functionsImg {
       width: 100%;
-      padding: 0;
     }
   }
 
@@ -345,7 +290,7 @@ export const UxProject = styled.div`
   }
 
   .painGainContainer {
-    border: 1px solid red;
+    //border: 1px solid red;
     background-color: #ff7eb9;
     padding: 40px;
     padding-bottom: 40px;
@@ -353,14 +298,6 @@ export const UxProject = styled.div`
     margin-top: -30px;
     margin-bottom: 50px;
     min-width: 500px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .painGainContainer h1,
-    li {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
   }
 
   .insightsWrapper {
@@ -382,12 +319,6 @@ export const UxProject = styled.div`
     & h1 {
       /* font-weight: 600; */
       margin-bottom: 20px;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .insightsContainer {
-      width: 100%;
     }
   }
 

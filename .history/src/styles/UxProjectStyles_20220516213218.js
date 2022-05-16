@@ -283,13 +283,6 @@ export const UxProject = styled.div`
     text-align: center;
   }
 
-  @media screen and (max-width: 480px) {
-    .canvas {
-      width: 100%;
-      padding: 0;
-    }
-  }
-
   .userflowImg {
     border: 1px solid red;
     //background-color: #ff65a3;

@@ -9,7 +9,7 @@ export const UxProject = styled.div`
   margin-top: 100px;
 
   .uxProjectWrapper {
-    //border: 1px solid red;
+    border: 1px solid red;
     background-color: #ff7eb9;
     padding: 20px;
     padding-bottom: 40px;
@@ -17,13 +17,6 @@ export const UxProject = styled.div`
     margin-top: -30px;
     margin-bottom: 50px;
   }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapper {
-      margin: 0;
-    }
-  }
-
   .uxProjectWrapperYellow {
     //border: 1px solid red;
     background-color: #feff9c;
@@ -36,13 +29,6 @@ export const UxProject = styled.div`
     //font-weight: 500;
     line-height: 35px;
   }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapperYellow {
-      margin-left: 0;
-      margin-right: 0;
-    }
-  }
   .uxProjectWrapperBlue {
     //border: 1px solid red;
     background-color: #7afcff;
@@ -54,13 +40,6 @@ export const UxProject = styled.div`
     margin-bottom: 50px;
     //font-weight: 500;
     line-height: 35px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .uxProjectWrapperBlue {
-      margin-left: 0;
-      margin-right: 0;
-    }
   }
 
   .uxProjectContainer {
@@ -283,13 +262,6 @@ export const UxProject = styled.div`
     text-align: center;
   }
 
-  @media screen and (max-width: 480px) {
-    .canvas {
-      width: 100%;
-      padding: 0;
-    }
-  }
-
   .userflowImg {
     border: 1px solid red;
     //background-color: #ff65a3;
@@ -345,7 +317,7 @@ export const UxProject = styled.div`
   }
 
   .painGainContainer {
-    border: 1px solid red;
+    //border: 1px solid red;
     background-color: #ff7eb9;
     padding: 40px;
     padding-bottom: 40px;
@@ -353,14 +325,6 @@ export const UxProject = styled.div`
     margin-top: -30px;
     margin-bottom: 50px;
     min-width: 500px;
-  }
-
-  @media screen and (max-width: 480px) {
-    .painGainContainer h1,
-    li {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
   }
 
   .insightsWrapper {
