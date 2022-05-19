@@ -125,28 +125,29 @@ export const About = () => {
               <p>
                 This site was created as my final project on the 2 years
                 frontend Deelopment education at KYH in Stockholm, Sweden. I
-                built it myself as a presentation tool for when I'll apply for
-                jobs. I started to reskill myself from a graphic designer to a
+                built it myself as a presentation tool for when I'll search for
+                jobbs. I started to reskill myself from a graphic designer to a
                 webdesigner to get back into the creative field. The last couple
-                of years I'we been working within other fields, but I felt I
-                wanted to get back to a more creative work, because that's where
-                I have my strengths and what I love to do. I had no experience
-                of code before I started this course, except a beginners course
-                at Jensens School to learn basic html, javascript and css, which
-                I attended acouple of months before I started at KYH.
+                of years I'we been working with in other fields, but I felt I
+                wanted to get back to a more creative work, becouse that's where
+                I have my strong points and what I love to do. I had no
+                experience with code before I started this course, exept a
+                beginners course at Jensens School to learn basic html,
+                javascript and css, which I attended acouple of months before I
+                started at KYH.
               </p>
             </div>
             <div className='aboutParagraph'>
               <h2>UX</h2>
               <p>
                 At KYH frontend Development education we also had alot of UX
-                courses. So in that process I fell in love with UX design.
+                courses. So in that process I feel in love in UX design.
                 Especially the research part. It reminds me of graphic
                 communication which is close to my heart, so I felt straight at
-                home during these courses. That's when I decided I wanted to
-                work with UX design after my studies. I love to dig in and
-                search for that perfect solution. And in brainstorm session and
-                workshops is where my creative side flourish.
+                home during these course. That's when I decided I wanted to work
+                with UX design after my studies. I love to dig in and search for
+                that perfect solution. And in brainstorm session and workshops
+                is where my creative side feels right at home.
               </p>
             </div>
 
@@ -155,35 +156,35 @@ export const About = () => {
               <p>
                 As a part of the frontend development education at KYH I had a
                 internship at a startup called Aline, which is an edtech
-                company. Their service is an App which is a platform for more
+                company. Their service is an App that is a platform for more
                 effective learning. My role at the company was as a UX designer.
                 So now I got the chance to apply the skills that I'we learned
-                and to see if it was something for me. Oh yes it was. For me, my
-                internship at Aline has been incredibly rewarding. I had the
-                chance to work with real projects and learned to take
-                responsibility and deliver a professional result. Being
-                responsible makes me confident and gives me a feeling that I can
-                do this and be good at it. For me it's very important to feel
-                that I contribute to the team and comapany.
+                and to see if it was really something for me. Oh yes it was. For
+                me, it has been incredibly rewarding to do my internship at
+                Aline. I had the chance to work with real projects, which has
+                been rewarding because I have learned to take responsibility and
+                deliver a professional result. It gives me confidence to get
+                responsibility and a feeling that I can do this and be good at
+                it.
               </p>
             </div>
             <div className='aboutParagraph'>
               <h2>UX intern tasks</h2>
               <p>
-                The project I mainly worked with was improving the user
-                experience on Aline's website. I did a thorough UX analysis of
-                the page in the form of the double diamond method: discover,
-                define, develop and deliver. To understand the user and see the
-                needs for improvemnts, I did several user testings in the form
+                The project I mainly worked with was to improve the user
+                experience on Aline's website.I did a thorough UX analysis of
+                the page in the form of the double diamond method, discover,
+                define, develop deliver. To understand the user and see what
+                needed to be improved, I did several user testings in the form
                 of interviews.Then I compiled the results and presented the
                 findings and apllied them to the website. I also had the chance
                 to work quite broadly with several other types of tasks. Among
                 other things, I have on a daily basis participated in many
-                workshops, where we brainstormed ideas including everything from
+                workshops where we brainstormed ideas in everything from
                 marketing to improving various features in the app. I also
-                helped with layout and design tasks. So it has been broad and
-                very interesting, and since I want to do work with UX after
-                education, it has been perfect for me.
+                helped with some layout and design tasks. So it has been broad
+                and very rewarding, and since I want to do UX after education,
+                it has been perfect for me.
               </p>
             </div>
             <div className='aboutParagraph'>

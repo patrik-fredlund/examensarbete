@@ -182,8 +182,8 @@ export const About = () => {
                 workshops, where we brainstormed ideas including everything from
                 marketing to improving various features in the app. I also
                 helped with layout and design tasks. So it has been broad and
-                very interesting, and since I want to do work with UX after
-                education, it has been perfect for me.
+                very interesting, and since I want to do UX after education, it
+                has been perfect for me.
               </p>
             </div>
             <div className='aboutParagraph'>
@@ -193,6 +193,12 @@ export const About = () => {
                 exercitationem autem nihil a, aliquam, dolore architecto laborum
                 repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
                 nemo nesciunt voluptate itaque labore rerum libero?
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+                minima consequuntur, omnis temporibus obcaecati expedita earum
+                iusto, in beatae perferendis consequatur. Maxime ut aspernatur
+                error, quis adipisci officia sint vero.
               </p>
             </div>
           </div>

@@ -178,12 +178,12 @@ export const About = () => {
                 of interviews.Then I compiled the results and presented the
                 findings and apllied them to the website. I also had the chance
                 to work quite broadly with several other types of tasks. Among
-                other things, I have on a daily basis participated in many
-                workshops, where we brainstormed ideas including everything from
+                other things, I have on a daily basis, participated in many
+                workshops where we brainstormed ideas in everything from
                 marketing to improving various features in the app. I also
-                helped with layout and design tasks. So it has been broad and
-                very interesting, and since I want to do work with UX after
-                education, it has been perfect for me.
+                helped with some layout and design tasks. So it has been broad
+                and very rewarding, and since I want to do UX after education,
+                it has been perfect for me.
               </p>
             </div>
             <div className='aboutParagraph'>
