@@ -35,12 +35,6 @@ export const AboutContainer = styled.div`
     max-width: 1500px;
   }
 
-  .aboutSubTitle {
-    margin-top: 100px;
-    font-size: 40px;
-    font-weight: 300;
-  }
-
   @media screen and (max-width: 480px) {
     .paragraphContainer {
       margin-left: 5px;
@@ -91,28 +85,12 @@ export const AboutContainer = styled.div`
     font-weight: 500;
   }
 
-  .praiseContainer {
-    background-color: #ff7eb9;
-    padding: 20px;
-    margin-top: 50px;
-  }
-  .praiseContainer:nth-child(2) {
-    background-color: #7afcff;
-    padding: 20px;
-    margin-top: 50px;
-  }
-
   .praiseIngress {
     font-size: 20px;
     line-height: 40px;
     font-weight: 300;
     max-width: 900px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .praiseTitle {
-    font-weight: 600;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 `;

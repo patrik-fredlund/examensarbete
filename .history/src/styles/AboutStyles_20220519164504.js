@@ -109,6 +109,8 @@ export const AboutContainer = styled.div`
     max-width: 900px;
     margin-top: 30px;
     margin-bottom: 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
   }
 
   .praiseTitle {

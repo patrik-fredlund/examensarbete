@@ -48,7 +48,7 @@ export const About = () => {
           </b>
         </p>
         <div className='praiseContainer'>
-          <h2 className='praiseTitle'>Words from my latest internship</h2>
+          <h3>Words from my latest internship</h3>
           <p className='praiseIngress'>
             "There are some people who come into the team and completely change
             the dynamic for the better, Patrik is one of them, his energy is
@@ -61,7 +61,6 @@ export const About = () => {
             <b>Stephanie Darvill, COO at Aline. </b>
           </p>
         </div>
-        <h2 className='aboutSubTitle'> My background </h2>
         <div className='paragraphWrapper'>
           <div className='paragraphContainer'>
             <div className='aboutParagraph'>
@@ -252,7 +251,7 @@ export const About = () => {
                 education, it has been perfect for me.
               </p>
             </div>
-            {/*  <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 "There are some people who come into the team and completely
@@ -265,7 +264,7 @@ export const About = () => {
                 fine-tuning our brand messaging.” <br />
                 <b>Stephanie Darvill, COO at Aline. </b>
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

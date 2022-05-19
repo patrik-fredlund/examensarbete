@@ -252,7 +252,7 @@ export const About = () => {
                 education, it has been perfect for me.
               </p>
             </div>
-            {/*  <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 "There are some people who come into the team and completely
@@ -265,7 +265,7 @@ export const About = () => {
                 fine-tuning our brand messaging.” <br />
                 <b>Stephanie Darvill, COO at Aline. </b>
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

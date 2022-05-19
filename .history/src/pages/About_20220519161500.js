@@ -47,21 +47,7 @@ export const About = () => {
             educated and modest team player through thick and thin, 24/7.
           </b>
         </p>
-        <div className='praiseContainer'>
-          <h2 className='praiseTitle'>Words from my latest internship</h2>
-          <p className='praiseIngress'>
-            "There are some people who come into the team and completely change
-            the dynamic for the better, Patrik is one of them, his energy is
-            infectious and it’s certainly noticed when he isn’t in a team
-            meeting. He is a great leader and is always encouraging other team
-            members to bring out their potential, he is also an excellent UX
-            Designer with a laser-sharp attention to detail, his knowledge in
-            typography is incredibly valuable when fine-tuning our brand
-            messaging.” <br />
-            <b>Stephanie Darvill, COO at Aline. </b>
-          </p>
-        </div>
-        <h2 className='aboutSubTitle'> My background </h2>
+
         <div className='paragraphWrapper'>
           <div className='paragraphContainer'>
             <div className='aboutParagraph'>
@@ -252,7 +238,7 @@ export const About = () => {
                 education, it has been perfect for me.
               </p>
             </div>
-            {/*  <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 "There are some people who come into the team and completely
@@ -262,10 +248,10 @@ export const About = () => {
                 other team members to bring out their potential, he is also an
                 excellent UX Designer with a laser-sharp attention to detail,
                 his knowledge in typography is incredibly valuable when
-                fine-tuning our brand messaging.” <br />
-                <b>Stephanie Darvill, COO at Aline. </b>
+                fine-tuning our brand messaging.”{' '}
+                <b>Stephanie Darvill, COO at Aline. COO</b>
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

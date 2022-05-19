@@ -36,9 +36,7 @@ export const AboutContainer = styled.div`
   }
 
   .aboutSubTitle {
-    margin-top: 100px;
-    font-size: 40px;
-    font-weight: 300;
+    margin-top: 50px;
   }
 
   @media screen and (max-width: 480px) {
@@ -96,11 +94,6 @@ export const AboutContainer = styled.div`
     padding: 20px;
     margin-top: 50px;
   }
-  .praiseContainer:nth-child(2) {
-    background-color: #7afcff;
-    padding: 20px;
-    margin-top: 50px;
-  }
 
   .praiseIngress {
     font-size: 20px;
@@ -108,11 +101,11 @@ export const AboutContainer = styled.div`
     font-weight: 300;
     max-width: 900px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
   }
 
   .praiseTitle {
     font-weight: 600;
-    margin-top: 20px;
   }
 `;

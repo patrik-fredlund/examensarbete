@@ -101,6 +101,11 @@ export const AboutContainer = styled.div`
     padding: 20px;
     margin-top: 50px;
   }
+  .praiseContainer:nth-child(4) {
+    background-color: #fff740;
+    padding: 20px;
+    margin-top: 50px;
+  }
 
   .praiseIngress {
     font-size: 20px;
@@ -109,6 +114,8 @@ export const AboutContainer = styled.div`
     max-width: 900px;
     margin-top: 30px;
     margin-bottom: 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
   }
 
   .praiseTitle {
