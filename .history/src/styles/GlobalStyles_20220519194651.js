@@ -66,7 +66,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 600px) {
     .gradientWrapper {
-      //padding-bottom: 100px;
+      padding-bottom: 100px;
     }
   }
   //2nd child container of hero section
@@ -119,7 +119,7 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 600px) {
     .gradientBackgroundText {
       border: 1px solid red;
-      height: 70vh;
+      padding-bottom: 100px;
     }
   }
 

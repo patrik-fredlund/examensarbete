@@ -51,6 +51,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     .outerWrapper {
+      border: 1px solid red;
       display: flex;
       flex-direction: column;
       width: 100vw;
@@ -62,12 +63,6 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
-  }
-
-  @media screen and (max-width: 600px) {
-    .gradientWrapper {
-      //padding-bottom: 100px;
-    }
   }
   //2nd child container of hero section
   .backgroundImg {
@@ -90,6 +85,7 @@ export const Wrapper = styled.div`
   }
 
   .heroContainer {
+    border: 10px solid magenta;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -113,13 +109,6 @@ export const Wrapper = styled.div`
     }
     100% {
       background-position: 0% 50%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .gradientBackgroundText {
-      border: 1px solid red;
-      height: 70vh;
     }
   }
 

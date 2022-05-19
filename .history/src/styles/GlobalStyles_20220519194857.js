@@ -119,7 +119,7 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 600px) {
     .gradientBackgroundText {
       border: 1px solid red;
-      height: 70vh;
+      height: 600px;
     }
   }
 
