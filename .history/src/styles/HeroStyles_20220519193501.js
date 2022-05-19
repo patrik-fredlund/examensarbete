@@ -17,7 +17,6 @@ export const HeroContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
   }
 
   h1 {

@@ -17,7 +17,6 @@ export const HeroContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
   }
 
   h1 {
@@ -63,12 +62,6 @@ export const HeroContainer = styled.div`
     .greeting {
       font-size: 30px;
       margin-top: 100px;
-    }
-  }
-  @media screen and (max-width: 300px) {
-    .greeting {
-      font-size: 30px;
-      margin-top: 150px;
     }
   }
 

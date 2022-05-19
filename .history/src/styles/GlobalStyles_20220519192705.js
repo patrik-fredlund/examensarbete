@@ -261,7 +261,6 @@ export const ContentContainer = styled.div`
     justify-content: center;
     flex: 1;
     margin-bottom: 10px;
-    margin: 10px;
   }
 
   @media screen and (max-width: 768px) {
