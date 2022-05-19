@@ -35,13 +35,6 @@ export const AboutContainer = styled.div`
     max-width: 1500px;
   }
 
-  @media screen and (max-width: 480px) {
-    .paragraphContainer {
-      margin-left: 5px;
-      margin-right: 5px;
-    }
-  }
-
   .aboutParagraph {
     display: flex;
     flex-direction: column;
@@ -57,8 +50,7 @@ export const AboutContainer = styled.div`
 
   @media screen and (max-width: 480px) {
     .aboutParagraph {
-      margin-left: 5px;
-      margin-right: 5px;
+      margin-left: 10px;
     }
   }
 
