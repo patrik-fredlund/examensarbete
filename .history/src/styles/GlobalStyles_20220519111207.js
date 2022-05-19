@@ -83,7 +83,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     background: linear-gradient(-45deg, #e8fdf6, #b5f8df, #ced3df, #16c1e3);
     background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
+    animation: gradient 7s ease infinite;
     height: 50vh;
     width: 100%;
   }

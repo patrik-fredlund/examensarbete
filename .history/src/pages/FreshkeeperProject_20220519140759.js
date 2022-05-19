@@ -15,13 +15,10 @@ export const FreshkeeperProject = () => {
 
             <h1 className='headerTitle'>Freshkeeper</h1>
             <p className='explainerText'>
-              Freshkeeper is an App that{' '}
-              <span className='bold'>
-                helps you keep track on your food items and their expiration
-                date.{' '}
-              </span>{' '}
-              This was a school assignement with focus on the ux process, from
-              research and discovery to definition and final prototype.
+              Freshkeeper is an App that helps you keep track on your food items
+              and their expiration date. This was a school assignement with
+              focus on the ux process, from research and discovery to definition
+              and final prototype.
             </p>
           </div>
         </div>
@@ -55,9 +52,8 @@ export const FreshkeeperProject = () => {
         <p className='subHeader'>Part 1 - Explore Ideas</p>
         <p className='ingressParagraph'>
           The first part of the discovery research was to choose a problem to
-          solve with food consumption. I decided to focus on{' '}
-          <span className='bold'>food waste </span> because according to the
-          Swedish National Food Administration:
+          solve with food consumption. I decided to focus on <b>food waste </b>{' '}
+          because according to the Swedish National Food Administration:
         </p>
         <div className='uxProjectWrapperYellow'>
           <div className='uxProjectContainer'>
@@ -73,12 +69,11 @@ export const FreshkeeperProject = () => {
         </div>
         <p className='MiddleIngressParagraph'>
           So after exploring different ideas of how to{' '}
-          <span className='bold'>help the user waste less food </span> I decided
-          to{' '}
-          <span className='bold'>
+          <b>help the user waste less food </b> I decided to{' '}
+          <b>
             create an app that gives the user a reminder when their purchased
             food will soon expire.
-          </span>{' '}
+          </b>{' '}
           So in other words:
         </p>
         <div className='uxProjectWrapperBlue'>
@@ -178,10 +173,8 @@ export const FreshkeeperProject = () => {
 
         <h2 className='projectTitle'>Target group analysis</h2>
         <p className='MiddleIngressParagraph'>
-          For the target group analysis I choose to do a{' '}
-          <span className='bold'>Survey</span> and{' '}
-          <span className='bold'>interviews.</span> Research goals with the
-          Survey was to find out:
+          For the target group analysis I choose to do a <b>Survey</b> and{' '}
+          <b>interviews.</b> Research goals with the Survey was to find out:
         </p>
         <div className='uxProjectWrapperYellow'>
           <div className='uxProjectContainer'>
@@ -324,14 +317,11 @@ export const FreshkeeperProject = () => {
             <li> Get a reminder when the date is close</li>
           </ul>
           From the target group research I also got a lot of useful feedback as
-          to what's{' '}
-          <span className='bold'>
-            important to them when using these features.
-          </span>{' '}
-          So now it's time to develop those features in detail to{' '}
-          <span className='bold'>reach the user needs.</span> From the feedback
-          I also learned that the user would value additional features of the
-          App. First step is to write down all features in order of importance.
+          to what's <b>important to them when using these features.</b> So now
+          it's time to develop those features in detail to{' '}
+          <b>reach the user needs.</b> From the feedback I also learned that the
+          user would value additional features of the App. First step is to
+          write down all features in order of importance.
         </p>
 
         <h2 className='projectSubTitle'>
@@ -366,10 +356,8 @@ export const FreshkeeperProject = () => {
         </p>
         <p className='ingressParagraph'>
           Next step is create a sketch of the{' '}
-          <span className='bold'>
-            main user flow of the prioritized functions,
-          </span>{' '}
-          to get a sense of the journey and to see if it's working as planned.
+          <b>main user flow of the prioritized functions,</b> to get a sense of
+          the journey and to see if it's working as planned.
         </p>
         <h2 className='projectSubTitle'>Main user flow</h2>
         <img
@@ -392,11 +380,8 @@ export const FreshkeeperProject = () => {
         />
         <p className='imgText'> Screenshot of cycle of user value</p>
         <p className='ingressParagraph'>
-          Next step is to create{' '}
-          <span className='bold'>the final userflow</span> with all parts.{' '}
-          <span className='bold'>
-            This will be the guidline and map for the prototype.
-          </span>
+          Next step is to create <b>the final userflow</b> with all parts.{' '}
+          <b>This will be the guidline and map for the prototype.</b>
         </p>
         <h2 className='projectSubTitle'>Development of the Userflow</h2>
         <img
@@ -410,16 +395,15 @@ export const FreshkeeperProject = () => {
         <hr />
         {/*  <p className='subHeader'>Part 2.3 - Define the target group</p> */}
         <p className='ingressParagraph'>
-          Now it's time to find a <span className='bold'>suitable name</span>{' '}
-          for the App. I allways loved this part in graphic design and branding,
-          and it's no difference with UX. I had a{' '}
-          <span className='bold'>brainstorm session</span> and started with
-          writting down words, feelings and things that can be assosiated with
-          this subject, to build a tree of names and in the end the perfect name
-          will appear and blom, so to speak. If it's possible{' '}
-          <span className='bold'>
+          Now it's time to find a <b>suitable name</b> for the App. I allways
+          loved this part in graphic design and branding, and it's no difference
+          with UX. I had a <b>brainstorm session</b> and started with writting
+          down words, feelings and things that can be assosiated with this
+          subject, to build a tree of names and in the end the perfect name will
+          appear and blom, so to speak. If it's possible{' '}
+          <b>
             the name needs to tick all the boxes of the features of the App.
-          </span>{' '}
+          </b>{' '}
           I started with writting down words realted to the subject:
         </p>
         <div className='insightsWrapper'>
@@ -469,14 +453,12 @@ export const FreshkeeperProject = () => {
         <p className='ingressParagraph'>
           With those words in mind from the brainstorm, next step was to write
           down name suggestions that would{' '}
-          <span className='bold'>
-            apply to the value of the App to define what it is.
-          </span>{' '}
-          It needs to be{' '}
-          <span className='bold'>
+          <b>apply to the value of the App to define what it is.</b> It needs to
+          be{' '}
+          <b>
             simple and straight to the point to communicate directly to the
             target group.
-          </span>
+          </b>
         </p>
         <h2 className='projectSubTitle'>Name workhop</h2>
         <img
@@ -487,8 +469,8 @@ export const FreshkeeperProject = () => {
         <p className='imgText'> Screenshot from the name workshop</p>
         <p className='ingressParagraph'>
           From the workhop these four where my favorites. If I had time I would
-          at this stage do a <span className='bold'>user test</span> and ask the
-          user which was their favorite name.
+          at this stage do a user test and ask the user which was their favorite
+          name.
         </p>
         <img
           className='functionsImg'
@@ -510,12 +492,9 @@ export const FreshkeeperProject = () => {
           Create a prototype of the Apps main userflow
         </p>
         <p className='ingressParagraph'>
-          First I made a <span className='bold'>low-fi sketch</span> of the
-          prototype to get all parts where I wanted them, then I created a{' '}
-          <span className='bold'>
-            High-fidelity wireframe/prototype in Figma.
-          </span>{' '}
-          h Here's the final result of the main user flow:
+          First I made a low-fi sketch of the prototype to get all parts where I
+          wanted them, then I created a high-fidelity wireframe/prototype in
+          Figma. Here's the final result of the main user flow:
         </p>
         <div className='screeenShotsWrapper'>
           <img
@@ -548,9 +527,8 @@ export const FreshkeeperProject = () => {
         <hr />
         <p className='subHeader'>Graphic Guidelines</p>
         <p className='ingressParagraph'>
-          And here are a part of the{' '}
-          <span className='bold'>graphic manual</span> with the choosen fonts
-          and colors of the App.
+          And here are a part of the graphic manual with the choosen fonts and
+          colors of the App.
         </p>
         <img
           className='functionsImg'

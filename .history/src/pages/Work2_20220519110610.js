@@ -15,9 +15,9 @@ export const Work2 = () => {
           <p className='ingressText'>
             During my studies in frontend development I discovered my love for
             UX design, and especially the research part. It reminds me about
-            graphic design, but instead of communicating with the target
-            audience in print, it's online. Below you can have a look at some of
-            my UX cases.
+            graphic design, but instead of communicating to the target audience
+            in print, it's online. Below you can have a look at some of my UX
+            cases.
           </p>
         </div>
         <ProjectsWrapper>

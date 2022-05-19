@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-//--------Här är css:en för hero section på landing page--------//
+//--------Här är css:en för hero section på landing page och work page--------//
 export const HeroWrapper = styled.div`
   display: flex;
   justify-content: center;

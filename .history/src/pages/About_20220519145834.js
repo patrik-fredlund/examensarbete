@@ -238,7 +238,7 @@ export const About = () => {
                 education, it has been perfect for me.
               </p>
             </div>
-            {/*      <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
@@ -246,7 +246,7 @@ export const About = () => {
                 repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
                 nemo nesciunt voluptate itaque labore rerum libero?
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

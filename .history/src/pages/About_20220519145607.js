@@ -132,11 +132,11 @@ export const About = () => {
                 From a young age I'we <b>made and played music.</b> I picked up
                 the <b>guitar</b> at the age of 10 thanks to Angus Young who was
                 my big idol. In high school I started my first band, and since
-                then <b>music has been a big part of my life.</b> When I turned
-                30 I decided I had to try to make it in the musc industry and
-                started a band called <b>Putte & Höket.</b> We got a{' '}
-                <b>record deal</b> and released an album and a couple of singles
-                and{' '}
+                then
+                <b>music has been a big part of my life.</b> When I turned 30 I
+                decided I had to try to make it in the musc industry and started
+                a band called <b>Putte & Höket.</b> We got a <b>record deal</b>{' '}
+                and released an album and a couple of singles and{' '}
                 <b>toured as a supporting act to Stiftelsen and Hoffmaestro</b>{' '}
                 at a couple of occations. I'we dedicated my life for 10 years
                 but at the age of 40 I came to the conclusion that it's hard to
@@ -154,7 +154,7 @@ export const About = () => {
                 built it myself in <b>React JS </b> as a{' '}
                 <b>
                   presentation tool for when I'll apply for jobs, wehere I can
-                  show my broad skillset in code, UX and design.
+                  show my broad skillset in code, UX and design
                 </b>{' '}
                 I started to{' '}
                 <b>
@@ -163,9 +163,7 @@ export const About = () => {
                 </b>{' '}
                 The last couple of years I'we been working within other fields,
                 but I felt I wanted to get back to a more creative work, because
-                <b>
-                  that's where I have my strengths and what I love to do.
-                </b>{' '}
+                that's where I have my strengths and what I love to do.{' '}
                 <b>I had no experience of code before I started this course,</b>{' '}
                 except a beginners course at Jensens School to learn basic{' '}
                 <b> html, javascript and css,</b> which I attended acouple of
@@ -195,11 +193,12 @@ export const About = () => {
             <div className='aboutParagraph'>
               <h2>UX intern</h2>
               <p>
-                As a part of the frontend development education at KYH I had a{' '}
+                As a part of the frontend development education at KYH I had a
                 <b>internship at a startup called Aline,</b> which is an{' '}
-                <b>edtech</b> company. Their service is an App which is a
-                platform for <b>more effective learning.</b> My role at the
-                company was as a<b> UX designer. </b>
+                <b>edtech</b>
+                company. Their service is an App which is a platform for{' '}
+                <b>more effective learning.</b> My role at the company was as a
+                <b> UX designer. </b>
                 So now I got the chance to <b>apply the skills </b> that I'we
                 learned and to see if it was something for me. Oh yes it was.
                 For me, my internship at Aline has been{' '}
@@ -238,7 +237,7 @@ export const About = () => {
                 education, it has been perfect for me.
               </p>
             </div>
-            {/*      <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
@@ -246,7 +245,7 @@ export const About = () => {
                 repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
                 nemo nesciunt voluptate itaque labore rerum libero?
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

@@ -102,7 +102,7 @@ export const Wrapper = styled.div`
   //gradient background effect on hero section image
   .gradientBackgroundImg {
     display: flex;
-    background: linear-gradient(-45deg, #e8fdf6, #b5f8df, #ced3df, #16c1e3);
+    background: linear-gradient(45deg, #e8fdf6, #b5f8df, #ced3df, #16c1e3);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
     height: 50vh;

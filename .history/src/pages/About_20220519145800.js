@@ -163,9 +163,7 @@ export const About = () => {
                 </b>{' '}
                 The last couple of years I'we been working within other fields,
                 but I felt I wanted to get back to a more creative work, because
-                <b>
-                  that's where I have my strengths and what I love to do.
-                </b>{' '}
+                that's where I have my strengths and what I love to do.{' '}
                 <b>I had no experience of code before I started this course,</b>{' '}
                 except a beginners course at Jensens School to learn basic{' '}
                 <b> html, javascript and css,</b> which I attended acouple of
@@ -238,7 +236,7 @@ export const About = () => {
                 education, it has been perfect for me.
               </p>
             </div>
-            {/*      <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
@@ -246,7 +244,7 @@ export const About = () => {
                 repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
                 nemo nesciunt voluptate itaque labore rerum libero?
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

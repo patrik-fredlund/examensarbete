@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
   .aboutIngress {
     font-size: 20px;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 200;
     max-width: 900px;
     margin-left: 10px;
     margin-right: 10px;
@@ -82,6 +82,6 @@ export const AboutContainer = styled.div`
   }
 
   .bolder {
-    font-weight: 500;
+    font-weight: 200;
   }
 `;

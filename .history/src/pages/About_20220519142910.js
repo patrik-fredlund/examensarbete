@@ -30,9 +30,9 @@ export const About = () => {
           scratch. I just <b className='bolder'>graduated</b> from KYH where I
           studied <b className='bolder'>Frontend Development,</b> to learn to
           design on the web. Since erlier I have a{' '}
-          <b className='bolder'>BA(hons) in graphic design</b> with a focus on{' '}
-          <b className='bolder'>typography,</b> from University College for the
-          Creative Arts at Farnham, England. <br /> My strengths are in{' '}
+          <b className='bolder'>BA(hons) in graphic design</b> with a focus on
+          typography, from University College for the Creative Arts at Farnham,
+          England. <br /> My strengths are in{' '}
           <b className='bolder'>problem solving</b> and{' '}
           <b className='bolder'>graphic design</b> , and{' '}
           <b className='bolder'>
@@ -54,12 +54,15 @@ export const About = () => {
               <h2>Advertising Festival in Cannes</h2>
               <p>
                 I decided at an early age that I wanted to be an{' '}
-                <b>Art Director.</b> Since my parents worked in the advertising
-                field me and my sister followed them to Cannes, France every
-                summer, to attend the Cannes Lions Advertising Festival. And
-                since we where so young we could follow them for free and watch
-                the commercials. This is when I{' '}
-                <b>at the age of 9 decided it I wanted to be a Art Director.</b>{' '}
+                <b>Art Director.</b>
+                Since my parents worked in the advertising field me and my
+                sister followed them to Cannes, France every summer, to attend
+                the Cannes Lions Advertising Festival. And since we where so
+                young we could follow them for free and watch the commercials.
+                This is when I{' '}
+                <b>
+                  at the age of 9 decided it I wanted to be a Art Director.
+                </b>{' '}
                 Some summers I watched over 1000 advertising commericals. The
                 car category was my favorite. On the roadtrip back to Sweden I
                 spent my time comming up with commercials. <b>I was hooked.</b>
@@ -106,7 +109,7 @@ export const About = () => {
                 </b>{' '}
                 There I got myself an <b>BA(hons) degree.</b> Second year
                 focused on <b>print, packagiing and typography.</b> The third
-                year I'we choose typography as my major subject. So{' '}
+                year I'we choose typography as my major subject. So
                 <b>typography is a big intrest of mine</b> and something that is
                 close to my heart.
               </p>
@@ -114,103 +117,78 @@ export const About = () => {
             <div className='aboutParagraph'>
               <h2>Freelance Designer</h2>
               <p>
-                When I returned from the UK I worked as a{' '}
-                <b>reelance designer</b> f for some time. I did mostly{' '}
-                <b>print design.</b> I also did project work for{' '}
-                <b>design agencies,</b> e.g Embrink Design where I e.g worked
-                with the{' '}
-                <b>
-                  rebranding of the packaging for the yoghurt brand Yoplait.
-                </b>{' '}
-                At this time I also worked a lot with music as a{' '}
-                <b>songwriter and recording artist.</b>
+                When I returned from the UK I worked as a freelance designer for
+                some time. I did mostly print design. I also did project work
+                for design agencies, e.g Embrink Design where I e.g worked with
+                the rebranding of the packaging for the yoghurt brand Yoplait.
+                At this time I also worked a lot with music as a songwriter and
+                artist.
               </p>
             </div>
             <div className='aboutParagraph'>
               <h2>Music</h2>
               <p>
-                From a young age I'we <b>made and played music.</b> I picked up
-                the <b>guitar</b> at the age of 10 thanks to Angus Young who was
-                my big idol. In high school I started my first band, and since
-                then <b>music has been a big part of my life.</b> When I turned
-                30 I decided I had to try to make it in the musc industry and
-                started a band called <b>Putte & Höket.</b> We got a{' '}
-                <b>record deal</b> and released an album and a couple of singles
-                and{' '}
-                <b>toured as a supporting act to Stiftelsen and Hoffmaestro</b>{' '}
-                at a couple of occations. I'we dedicated my life for 10 years
-                but at the age of 40 I came to the conclusion that it's hard to
-                make a living of it in Sweden, so I decided to just keep it as a
-                hobby. I <b>still write music</b> to myself and other artists,
-                and in the near future some songs will be released which I'we
-                created. So music will allways be a part of my life.
+                From a young age I'we made and played music. I picked up the
+                guitar at the age of 10 thanks to Angus Young who was my big
+                idol. In high school I started my first band, and since then
+                music has been a big part of my life. When I turned 30 I decided
+                I had to try to make it in the musc industry and started a band
+                called Putte & Höket. We got a record deal and released an album
+                and a couple of singles and toured as a supporting act to
+                Stiftelsen and Hoffmaestro at a couple of occations. I'we
+                dedicated my life for 10 years but at the age of 40 I came to
+                the conclusion that it's hard to make a living of it in Sweden,
+                so I decided to just keep it as a hobby. I still write music to
+                myself and other artists, and in the near future some songs will
+                be released which I'we created. So music will allways be a part
+                of my life.
               </p>
             </div>
             <div className='aboutParagraph'>
               <h2>Frontend</h2>
               <p>
-                <b> I created this site as my final project</b> on the 2 years
+                This site was created as my final project on the 2 years
                 frontend Deelopment education at KYH in Stockholm, Sweden. I
-                built it myself in <b>React JS </b> as a{' '}
-                <b>
-                  presentation tool for when I'll apply for jobs, wehere I can
-                  show my broad skillset in code, UX and design.
-                </b>{' '}
-                I started to{' '}
-                <b>
-                  reskill myself from a graphic designer to a webdesigner to get
-                  back into the creative field.
-                </b>{' '}
-                The last couple of years I'we been working within other fields,
-                but I felt I wanted to get back to a more creative work, because
-                <b>
-                  that's where I have my strengths and what I love to do.
-                </b>{' '}
-                <b>I had no experience of code before I started this course,</b>{' '}
-                except a beginners course at Jensens School to learn basic{' '}
-                <b> html, javascript and css,</b> which I attended acouple of
-                months before I started at KYH.
+                built it myself as a presentation tool for when I'll apply for
+                jobs. I started to reskill myself from a graphic designer to a
+                webdesigner to get back into the creative field. The last couple
+                of years I'we been working within other fields, but I felt I
+                wanted to get back to a more creative work, because that's where
+                I have my strengths and what I love to do. I had no experience
+                of code before I started this course, except a beginners course
+                at Jensens School to learn basic html, javascript and css, which
+                I attended acouple of months before I started at KYH.
               </p>
             </div>
             <div className='aboutParagraph'>
               <h2>UX</h2>
               <p>
-                At KYH frontend Development education we also had{' '}
-                <b>alot of UX courses.</b> So in that process{' '}
-                <b>I fell in love with UX design.</b>
-                Especially the <b>research </b> part. It reminds me of graphic
+                At KYH frontend Development education we also had alot of UX
+                courses. So in that process I fell in love with UX design.
+                Especially the research part. It reminds me of graphic
                 communication which is close to my heart, so I felt straight at
-                home during these courses.{' '}
-                <b>That's when I decided I wanted to</b> work with UX design
-                after my studies.{' '}
-                <b>I love to dig in and search for that perfect solution.</b>{' '}
-                And in{' '}
-                <b>
-                  brainstorm session and workshops is where my creative side
-                  flourish.
-                </b>
+                home during these courses. That's when I decided I wanted to
+                work with UX design after my studies. I love to dig in and
+                search for that perfect solution. And in brainstorm session and
+                workshops is where my creative side flourish.
               </p>
             </div>
 
             <div className='aboutParagraph'>
               <h2>UX intern</h2>
               <p>
-                As a part of the frontend development education at KYH I had a{' '}
-                <b>internship at a startup called Aline,</b> which is an{' '}
-                <b>edtech</b> company. Their service is an App which is a
-                platform for <b>more effective learning.</b> My role at the
-                company was as a<b> UX designer. </b>
-                So now I got the chance to <b>apply the skills </b> that I'we
-                learned and to see if it was something for me. Oh yes it was.
-                For me, my internship at Aline has been{' '}
-                <b>incredibly rewarding.</b> I had the chance to work with{' '}
-                <b>
-                  real projects and learned to take responsibility and deliver a
-                  professional result.
-                </b>{' '}
-                Being responsible makes me confident and gives me a feeling that
-                I can do this and be good at it. For me it's very important to
-                feel that I <b>contribute to the team and comapany.</b>
+                As a part of the frontend development education at KYH I had a
+                internship at a startup called Aline, which is an edtech
+                company. Their service is an App which is a platform for more
+                effective learning. My role at the company was as a UX designer.
+                So now I got the chance to apply the skills that I'we learned
+                and to see if it was something for me. Oh yes it was. For me, my
+                internship at Aline has been incredibly rewarding. I had the
+                chance to work with real projects and learned to take
+                responsibility and deliver a professional result. Being
+                responsible makes me confident and gives me a feeling that I can
+                do this and be good at it. For me it's very important to feel
+                that I contribute to the team and comapany.
               </p>
             </div>
             <div className='aboutParagraph'>
@@ -226,19 +204,19 @@ export const About = () => {
                   double diamond method: discover, define, develop and deliver.
                 </b>{' '}
                 To understand the user and see the needs for improvemnts, I did
-                several <b>user testings</b> in the form of interviews. Then I
-                compiled the results and presented the findings and apllied them
-                to the website. I also had the chance to work quite broadly with
-                <b>several other types of tasks.</b> Among other things, I have
-                on a daily basis <b>participated in many workshops,</b> where we
+                several user testings in the form of interviews.Then I compiled
+                the results and presented the findings and apllied them to the
+                website. I also had the chance to work quite broadly with
+                several other types of tasks. Among other things, I have on a
+                daily basis participated in many workshops, where we
                 brainstormed ideas including everything from marketing to
-                improving various features in the app. I also helped with{' '}
-                <b>layout and design tasks. </b> So it has been broad and very
-                interesting, and since I want to do work with UX after
-                education, it has been perfect for me.
+                improving various features in the app. I also helped with layout
+                and design tasks. So it has been broad and very interesting, and
+                since I want to do work with UX after education, it has been
+                perfect for me.
               </p>
             </div>
-            {/*      <div className='aboutParagraph'>
+            <div className='aboutParagraph'>
               <h2>Words from Aline aout me</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
@@ -246,7 +224,7 @@ export const About = () => {
                 repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
                 nemo nesciunt voluptate itaque labore rerum libero?
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </AboutContainer>

@@ -104,7 +104,7 @@ export const Wrapper = styled.div`
     display: flex;
     background: linear-gradient(-45deg, #e8fdf6, #b5f8df, #ced3df, #16c1e3);
     background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
+    animation: gradient 2s ease infinite;
     height: 50vh;
   }
   @keyframes gradient {
