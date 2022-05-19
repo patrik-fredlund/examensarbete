@@ -213,12 +213,12 @@ export const ContentContainer = styled.div`
 
   @media screen and (max-width: 1150px) {
     .toggleWrapper {
-      height: 27em;
+      height: 23em;
     }
   }
   @media screen and (max-width: 780px) {
     .toggleWrapper {
-      height: 29em;
+      height: 20em;
     }
   }
 
