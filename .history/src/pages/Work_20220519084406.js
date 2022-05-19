@@ -8,9 +8,8 @@ import { ToggleProjectWorkPage } from '../components/ToggleProjectWorkPage';
 import { FrontendProjects } from './FrontendProjects';
 
 //styles
-import { Wrapper } from '../styles/GlobalStyles';
+import { Wrapper, HeaderContainer } from '../styles/GlobalStyles';
 
-//pages
 import { Design } from './Design';
 import { Work2 } from './Work2';
 import { WorkContentContainer } from '../styles/WorkPageStyles';
@@ -23,7 +22,14 @@ export const Work = () => {
         <WorkContentContainer>
           <h1 className='workTitle'>My Work </h1>
           {/*      <hr /> */}
-
+          <div className='ingressContainer'>
+            {/*     <p className='ingressText'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+              impedit illo itaque voluptas libero veritatis ea laborum ad
+              suscipit debitis, molestias tempore doloribus quam porro sapiente
+              ipsam quidem dignissimos modi?
+            </p> */}
+          </div>
           <h1 className='toggleTitle'>Check out my work below. </h1>
           <p className='toogleExplainer'>
             Have a look at my UX cases, and since I'm also into Frontend and

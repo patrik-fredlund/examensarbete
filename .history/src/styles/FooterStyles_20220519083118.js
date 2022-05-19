@@ -41,6 +41,7 @@ export const FooterStyles = styled.nav`
   @media screen and (max-width: 480px) {
     .footerContainer {
       font-size: 12px;
+      padding: 1px;
     }
   }
 `;

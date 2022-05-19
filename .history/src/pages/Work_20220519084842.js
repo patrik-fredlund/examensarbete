@@ -10,7 +10,6 @@ import { FrontendProjects } from './FrontendProjects';
 //styles
 import { Wrapper } from '../styles/GlobalStyles';
 
-//pages
 import { Design } from './Design';
 import { Work2 } from './Work2';
 import { WorkContentContainer } from '../styles/WorkPageStyles';

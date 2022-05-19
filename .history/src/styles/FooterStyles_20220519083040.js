@@ -22,11 +22,12 @@ export const FooterStyles = styled.nav`
     .visit {
       display: flex;
       justify-content: center;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
   }
 
   .footerContainer {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -41,6 +42,7 @@ export const FooterStyles = styled.nav`
   @media screen and (max-width: 480px) {
     .footerContainer {
       font-size: 12px;
+      border: 1px solid black;
     }
   }
 `;

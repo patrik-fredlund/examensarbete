@@ -119,20 +119,6 @@ export const About = () => {
               </p>
             </div>
             <div className='aboutParagraph'>
-              <h2>UX</h2>
-              <p>
-                At KYH frontend Development education we also had alot of UX
-                courses. So in that process I feel in love in UX design.
-                Especially the research part. It reminds me of graphic
-                communication which is close to my heart, so I felt straight at
-                home during these course. That's when I decided I wanted to work
-                with UX design after my studies. I love to dig in and search for
-                that perfect solution. And in brainstorm session and workshops
-                is where my creative side feels right at home.
-              </p>
-            </div>
-
-            <div className='aboutParagraph'>
               <h2>UX intern</h2>
               <p>
                 As a part of the frontend development education at KYH I had a
@@ -152,29 +138,33 @@ export const About = () => {
             <div className='aboutParagraph'>
               <h2>UX intern tasks</h2>
               <p>
-                The project I mainly worked with was to improve the user
-                experience on Aline's website.I did a thorough UX analysis of
-                the page in the form of the double diamond method, discover,
-                define, develop deliver. To understand the user and see what
-                needed to be improved, I did several user testings in the form
-                of interviews.Then I compiled the results and presented the
-                findings and apllied them to the website. I also had the chance
-                to work quite broadly with several other types of tasks. Among
-                other things, I have on a daily basis participated in many
-                workshops where we brainstormed ideas in everything from
-                marketing to improving various features in the app. I also
-                helped with some layout and design tasks. So it has been broad
-                and very rewarding, and since I want to do UX after education,
-                it has been perfect for me.
+                The project I mainly worked on was to improve the user
+                experience on Aline's website. The primary purpose of the
+                website is to market the product (app) and make users want to
+                download it. I did not receive any direct guidelines on how to
+                proceed, but I used the tools we learned in the training. In
+                this case, I did a thorough UX analysis of the page in the form
+                of the double diamond method, discover, define, develop deliver.
+                I organized the project in a trello and worked in sprinters. To
+                understand the user and see what needed to be improved, I did
+                several user testings in the form of interviews where I asked
+                them questions while they tested the site Then I compiled the
+                results and presented what it meant followed by my
+                recommendations on what needed to be fixed. Then I started to
+                implement those changes, which today is in its final phase.
               </p>
             </div>
             <div className='aboutParagraph'>
-              <h2>Words from Aline aout me</h2>
+              <h2>UX</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-                exercitationem autem nihil a, aliquam, dolore architecto laborum
-                repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
-                nemo nesciunt voluptate itaque labore rerum libero?
+                At KYH frontend Development education we also had alot of UX
+                courses. So in that process I feel in love in UX design.
+                Especially the research part. It reminds me of graphic
+                communication which is close to my heart, so I felt straight at
+                home during these course. That's when I decided I wanted to work
+                with UX design after my studies. I love to dig in and search for
+                that perfect solution. And in brainstorm session and workshops
+                is where my creative side feels right at home.
               </p>
             </div>
 

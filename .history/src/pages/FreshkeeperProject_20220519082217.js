@@ -347,36 +347,36 @@ export const FreshkeeperProject = () => {
           {' '}
           Screenshot of the prioritized functions in detail.
         </p>
+        <h2 className='projectSubTitle'>Main user flow</h2>
         <p className='ingressParagraph'>
           Next step is create a sketch of the main user flow of the prioritized
           functions, to get a sense of the journey and to see if it's working as
           planned.
         </p>
-        <h2 className='projectSubTitle'>Main user flow</h2>
         <img
           className='functionsImg'
           src={require('../Images/freshkeeper_userflow.jpg')}
           alt='image of the freshkepper app'
         />
         <p className='imgText'> Screenshot of the main user flow.</p>
+        <h2 className='projectSubTitle'>Cycle of user value simplified</h2>
         <p className='ingressParagraph'>
           For me it's satisfying to see this value cycle below. It's the idea of
           this app as it is your storage and shoppinglist. So either you have
           the food item at home, or you get a reminder to add it to your
           shopping list.
         </p>
-        <h2 className='projectSubTitle'>Cycle of user value simplified</h2>
         <img
           className='functionsImg'
           src={require('../Images/freshkeeper_circle.jpg')}
           alt='image of the freshkepper app'
         />
         <p className='imgText'> Screenshot of cycle of user value</p>
+        <h2 className='projectSubTitle'>Development of the Userflow</h2>
         <p className='ingressParagraph'>
           Next step is to create the final userflow in with all parts. This will
           be the guidline and map for the prototype.
         </p>
-        <h2 className='projectSubTitle'>Development of the Userflow</h2>
         <img
           className='functionsImg'
           src={require('../Images/userflow_complete.png')}
@@ -440,13 +440,13 @@ export const FreshkeeperProject = () => {
             </ul>
           </div>
         </div>
+        <h2 className='projectSubTitle'>Name workhop</h2>
         <p className='ingressParagraph'>
           With those words in mind from the brainstorm, next step was to write
           down name suggestions that would apply to the value of the App to
           define what it is. It needs to be simple and straight to the point to
           communicate directly to the target group.
         </p>
-        <h2 className='projectSubTitle'>Name workhop</h2>
         <img
           className='functionsImg'
           src={require('../Images/names.png')}
@@ -479,8 +479,8 @@ export const FreshkeeperProject = () => {
         </p>
         <p className='ingressParagraph'>
           First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype in
-          Figma. Here's the final result of the main user flow:
+          wanted them, then I created a high-fidelity wireframe/prototype inside
+          Figma. Here's the final result:
         </p>
         <div className='screeenShotsWrapper'>
           <img

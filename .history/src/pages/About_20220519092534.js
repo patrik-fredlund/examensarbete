@@ -80,25 +80,12 @@ export const About = () => {
             <div className='aboutParagraph'>
               <h2>Graphic Design Uni in UK</h2>
               <p>
-                I allways knew I wanted to study to become an good Art Direcor
-                or Designer. So at the age of 24 I decided to get myself an
-                degree in design. So in 2006 I went to UK to study print design
-                at University College for the Creative Arts at Farnham. There I
-                got myself an BA(hons) degree. Second year focused on print,
-                packagiing and typography. The third year I'we choose typography
-                as my major subject. So typography is a big intrest of mine and
-                something that is close to my heart.
-              </p>
-            </div>
-            <div className='aboutParagraph'>
-              <h2>Freelance Designer</h2>
-              <p>
-                When I came home from the UK i worked as a freelance designer
-                for some time. I did mostly print design. I also did project
-                work for design agencies, e.g Embrink Design where I e.g worked
-                with the rebranding of the packaging for the yoghurt brand
-                Yoplait. At this time I also worked alot with music as a
-                songwriter and artist.
+                {/*   I allways knew I wanted to study to become an good Art Direcor or Designer. So at the age of 24 I decided to get myself an degree in design.
+                2006 I came home from Farnham; UK after 3 years of study where */}
+                I'we got myself an BA(hons) degree in graphic design. Second
+                year focused on print, packagiing and typography. The third year
+                I'we choose typography as my major subject. So typography is a
+                big intrest of mine and something that is close to my heart.
               </p>
             </div>
             <div className='aboutParagraph'>
@@ -129,52 +116,6 @@ export const About = () => {
                 with UX design after my studies. I love to dig in and search for
                 that perfect solution. And in brainstorm session and workshops
                 is where my creative side feels right at home.
-              </p>
-            </div>
-
-            <div className='aboutParagraph'>
-              <h2>UX intern</h2>
-              <p>
-                As a part of the frontend development education at KYH I had a
-                internship at a startup called Aline, which is an edtech
-                company. Their service is an App that is a platform for more
-                effective learning. My role at the company was as a UX designer.
-                So now I got the chance to apply the skills that I'we learned
-                and to see if it was really something for me. Oh yes it was. For
-                me, it has been incredibly rewarding to do my internship at
-                Aline. I had the chance to work with real projects, which has
-                been rewarding because I have learned to take responsibility and
-                deliver a professional result. It gives me confidence to get
-                responsibility and a feeling that I can do this and be good at
-                it.
-              </p>
-            </div>
-            <div className='aboutParagraph'>
-              <h2>UX intern tasks</h2>
-              <p>
-                The project I mainly worked with was to improve the user
-                experience on Aline's website.I did a thorough UX analysis of
-                the page in the form of the double diamond method, discover,
-                define, develop deliver. To understand the user and see what
-                needed to be improved, I did several user testings in the form
-                of interviews.Then I compiled the results and presented the
-                findings and apllied them to the website. I also had the chance
-                to work quite broadly with several other types of tasks. Among
-                other things, I have on a daily basis participated in many
-                workshops where we brainstormed ideas in everything from
-                marketing to improving various features in the app. I also
-                helped with some layout and design tasks. So it has been broad
-                and very rewarding, and since I want to do UX after education,
-                it has been perfect for me.
-              </p>
-            </div>
-            <div className='aboutParagraph'>
-              <h2>Words from Aline aout me</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-                exercitationem autem nihil a, aliquam, dolore architecto laborum
-                repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
-                nemo nesciunt voluptate itaque labore rerum libero?
               </p>
             </div>
 

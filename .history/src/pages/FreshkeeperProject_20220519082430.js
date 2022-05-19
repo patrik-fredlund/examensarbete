@@ -479,7 +479,7 @@ export const FreshkeeperProject = () => {
         </p>
         <p className='ingressParagraph'>
           First I made a low-fi sketch of the prototype to get all parts where I
-          wanted them, then I created a high-fidelity wireframe/prototype in
+          wanted them, then I created a high-fidelity wireframe/prototype inside
           Figma. Here's the final result of the main user flow:
         </p>
         <div className='screeenShotsWrapper'>

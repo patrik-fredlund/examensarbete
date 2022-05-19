@@ -119,20 +119,6 @@ export const About = () => {
               </p>
             </div>
             <div className='aboutParagraph'>
-              <h2>UX</h2>
-              <p>
-                At KYH frontend Development education we also had alot of UX
-                courses. So in that process I feel in love in UX design.
-                Especially the research part. It reminds me of graphic
-                communication which is close to my heart, so I felt straight at
-                home during these course. That's when I decided I wanted to work
-                with UX design after my studies. I love to dig in and search for
-                that perfect solution. And in brainstorm session and workshops
-                is where my creative side feels right at home.
-              </p>
-            </div>
-
-            <div className='aboutParagraph'>
               <h2>UX intern</h2>
               <p>
                 As a part of the frontend development education at KYH I had a
@@ -168,13 +154,22 @@ export const About = () => {
                 it has been perfect for me.
               </p>
             </div>
-            <div className='aboutParagraph'>
-              <h2>Words from Aline aout me</h2>
+              <h2>Words from Aline about me</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-                exercitationem autem nihil a, aliquam, dolore architecto laborum
-                repellendus, reiciendis debitis nesciunt possimus. Reprehenderit
-                nemo nesciunt voluptate itaque labore rerum libero?
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui officiis, quos maiores reprehenderit quae harum illum iste ducimus libero voluptatibus. Vero facilis sint quasi illo explicabo neque. Accusantium, voluptatem optio.
+              </p>
+            </div>
+            <div className='aboutParagraph'>
+              <h2>UX</h2>
+              <p>
+                At KYH frontend Development education we also had alot of UX
+                courses. So in that process I feel in love in UX design.
+                Especially the research part. It reminds me of graphic
+                communication which is close to my heart, so I felt straight at
+                home during these course. That's when I decided I wanted to work
+                with UX design after my studies. I love to dig in and search for
+                that perfect solution. And in brainstorm session and workshops
+                is where my creative side feels right at home.
               </p>
             </div>
 

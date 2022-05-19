@@ -18,15 +18,9 @@ export const FooterStyles = styled.nav`
   .visit {
     font-weight: 600;
   }
-  @media screen and (max-width: 480px) {
-    .visit {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 10px;
-    }
-  }
 
   .footerContainer {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -36,11 +30,5 @@ export const FooterStyles = styled.nav`
     z-index: 2;
     background-color: #daedbd;
     margin-top: auto;
-  }
-
-  @media screen and (max-width: 480px) {
-    .footerContainer {
-      font-size: 12px;
-    }
   }
 `;

@@ -27,6 +27,7 @@ export const FooterStyles = styled.nav`
   }
 
   .footerContainer {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -41,6 +42,7 @@ export const FooterStyles = styled.nav`
   @media screen and (max-width: 480px) {
     .footerContainer {
       font-size: 12px;
+      border: 1px solid black;
     }
   }
 `;

@@ -29,9 +29,8 @@ export const FrontendProjects = () => {
         <hr />
         <div className='ingressContainer'>
           <p className='ingressText'>
-            The last two years I'we been studing to become a frontend developer.
-            Here are some of my work, and a bit further down you will find a
-            list of all my repos at github.
+            My background is in graphic design and branding. So here I will
+            display some of my design work in the near future.
           </p>
         </div>
 
