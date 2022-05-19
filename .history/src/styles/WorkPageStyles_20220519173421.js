@@ -10,19 +10,13 @@ export const WorkContentContainer = styled.div`
   letter-spacing: 0.05em;
   line-height: 1.5em;
 
-  .workToggleContainer {
-    //border: 1px solid red;
-    display: flex;
-    justify-content: center;
-  }
-
   .workTitle {
     text-align: center;
     font-size: 90px;
     font-weight: 200;
     margin-top: 100px;
     margin-bottom: 50px;
-    line-height: 90px;
+    line-height: 50px;
   }
 
   /*   hr {
@@ -38,7 +32,7 @@ export const WorkContentContainer = styled.div`
     padding: 10px;
   }
 
-  @media screen and (max-width: 1550px) {
+  @media screen and (max-width: 1150px) {
     .toggleWrapper {
       height: 17em;
     }
@@ -46,7 +40,7 @@ export const WorkContentContainer = styled.div`
 
   @media screen and (max-width: 480px) {
     .toggleWrapper {
-      height: 20em;
+      height: 25em;
     }
   }
 
@@ -61,17 +55,10 @@ export const WorkContentContainer = styled.div`
     }
   }
 
-  .workToogleExplainer {
+  .toogleExplainer {
     text-align: center;
     font-weight: 300;
     margin-top: 20px;
-  }
-
-  @media screen and (max-width: 780px) {
-    .workToogleExplainer {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
   }
 
   //-----Toggle Buttons------//
@@ -81,7 +68,6 @@ export const WorkContentContainer = styled.div`
     justify-content: center;
     flex: 1;
     margin-bottom: 10px;
-    margin: 10px;
   }
 
   @media screen and (max-width: 768px) {

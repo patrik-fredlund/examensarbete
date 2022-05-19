@@ -185,7 +185,7 @@ export const About = () => {
                   I had no experience of code before I started this course,
                 </b>{' '}
                 except a beginners course at Jensens School to learn basic{' '}
-                <b> html, javascript and css,</b> which I attended a couple of
+                <b> html, javascript and css,</b> which I attended acouple of
                 months before I started at KYH.
               </p>
             </div>
@@ -194,11 +194,12 @@ export const About = () => {
               <p>
                 At KYH frontend Development education we also had{' '}
                 <b>alot of UX courses.</b> So in that process{' '}
-                <b>I fell in love with UX design.</b> Especially the{' '}
-                <b>research </b> part. It reminds me of graphic communication
-                which is close to my heart, so I felt straight at home during
-                these courses. <b>That's when I decided I wanted to</b> work
-                with UX design after my studies.{' '}
+                <b>I fell in love with UX design.</b>
+                Especially the <b>research </b> part. It reminds me of graphic
+                communication which is close to my heart, so I felt straight at
+                home during these courses.{' '}
+                <b>That's when I decided I wanted to</b> work with UX design
+                after my studies.{' '}
                 <b>I love to dig in and search for that perfect solution.</b>{' '}
                 And in{' '}
                 <b>
@@ -211,7 +212,7 @@ export const About = () => {
             <div className='aboutParagraph'>
               <h2>UX intern</h2>
               <p>
-                As a part of the frontend development education at KYH I had an{' '}
+                As a part of the frontend development education at KYH I had a{' '}
                 <b>internship at a startup called Aline,</b> which is an{' '}
                 <b>edtech</b> company. Their service is an App which is a
                 platform for <b>more effective learning.</b> My role at the
@@ -236,7 +237,7 @@ export const About = () => {
                 <b className='bolder'>
                   improving the user experience on Aline's website.
                 </b>{' '}
-                I did a<b className='bolder'> thorough UX analysis</b> of the
+                I did a<b className='bolder'>thorough UX analysis</b> of the
                 page in the form of the{' '}
                 <b className='bolder'>
                   double diamond method: discover, define, develop and deliver.

@@ -207,7 +207,7 @@ export const ContentContainer = styled.div`
   }
   @media screen and (max-width: 780px) {
     .toggleWrapper {
-      height: 25em;
+      height: 27em;
     }
   }
 
@@ -223,34 +223,22 @@ export const ContentContainer = styled.div`
   }
 
   .explainerContainer {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     display: flex;
+    border: 1px solid red;
   }
 
   .toogleExplainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     font-weight: 300;
     margin-top: 20px;
   }
 
-  @media screen and (max-width: 627px) {
+  @media screen and (max-width: 780px) {
     .toogleExplainer {
       margin-left: 10px;
       margin-right: 10px;
-      max-width: 500px;
-    }
-  }
-  @media screen and (max-width: 418px) {
-    .toogleExplainer {
-      margin-left: 10px;
-      margin-right: 10px;
-      max-width: 300px;
     }
   }
 

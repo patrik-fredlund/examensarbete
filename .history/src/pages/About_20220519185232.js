@@ -211,7 +211,7 @@ export const About = () => {
             <div className='aboutParagraph'>
               <h2>UX intern</h2>
               <p>
-                As a part of the frontend development education at KYH I had an{' '}
+                As a part of the frontend development education at KYH I had a{' '}
                 <b>internship at a startup called Aline,</b> which is an{' '}
                 <b>edtech</b> company. Their service is an App which is a
                 platform for <b>more effective learning.</b> My role at the
@@ -236,7 +236,7 @@ export const About = () => {
                 <b className='bolder'>
                   improving the user experience on Aline's website.
                 </b>{' '}
-                I did a<b className='bolder'> thorough UX analysis</b> of the
+                I did a<b className='bolder'>thorough UX analysis</b> of the
                 page in the form of the{' '}
                 <b className='bolder'>
                   double diamond method: discover, define, develop and deliver.

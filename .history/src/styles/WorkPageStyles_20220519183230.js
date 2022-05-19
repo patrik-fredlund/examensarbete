@@ -38,9 +38,14 @@ export const WorkContentContainer = styled.div`
     padding: 10px;
   }
 
-  @media screen and (max-width: 1550px) {
+  @media screen and (max-width: 1450px) {
     .toggleWrapper {
       height: 17em;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .toggleWrapper {
+      height: 19em;
     }
   }
 

@@ -207,7 +207,7 @@ export const ContentContainer = styled.div`
   }
   @media screen and (max-width: 780px) {
     .toggleWrapper {
-      height: 25em;
+      height: 37em;
     }
   }
 
@@ -228,6 +228,7 @@ export const ContentContainer = styled.div`
     flex-direction: column;
     align-items: center;
     display: flex;
+    border: 1px solid red;
   }
 
   .toogleExplainer {

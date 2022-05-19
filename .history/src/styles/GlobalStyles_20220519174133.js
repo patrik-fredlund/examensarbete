@@ -30,13 +30,6 @@ export const Wrapper = styled.div`
     line-height: 30px;
   }
 
-  @media screen and (max-width: 768px) {
-    .ingressText {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
-
   hr {
     width: 900px;
     margin: auto;
@@ -76,11 +69,6 @@ export const Wrapper = styled.div`
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     transform: scaleX(-1);
-  }
-  @media screen and (max-width: 768px) {
-    .backgroundImg {
-      width: 100%;
-    }
   }
 
   .heroContainer {
@@ -178,9 +166,6 @@ export const HeaderContainer = styled.div`
 //------------Landing page Toggle section----------//
 
 export const ContentContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #eebfbb;
   //background-color: white;
 
@@ -190,11 +175,10 @@ export const ContentContainer = styled.div`
   line-height: 1.5em;
 
   .toggleWrapper {
-    //border: 1px solid red;
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 100%;
     height: 19em;
     padding: 10px;
@@ -205,53 +189,22 @@ export const ContentContainer = styled.div`
       height: 23em;
     }
   }
-  @media screen and (max-width: 780px) {
+
+  @media screen and (max-width: 480px) {
     .toggleWrapper {
       height: 25em;
     }
   }
 
-  /*   @media screen and (max-width: 480px) {
-    .toggleWrapper {
-      height: 25em;
-    }
-  }
- */
   .toggleTitle {
     text-align: center;
     margin-top: 40px;
   }
 
-  .explainerContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-  }
-
   .toogleExplainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     font-weight: 300;
     margin-top: 20px;
-  }
-
-  @media screen and (max-width: 627px) {
-    .toogleExplainer {
-      margin-left: 10px;
-      margin-right: 10px;
-      max-width: 500px;
-    }
-  }
-  @media screen and (max-width: 418px) {
-    .toogleExplainer {
-      margin-left: 10px;
-      margin-right: 10px;
-      max-width: 300px;
-    }
   }
 
   //-----Toggle Buttons------//

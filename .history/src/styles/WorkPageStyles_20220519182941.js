@@ -38,7 +38,7 @@ export const WorkContentContainer = styled.div`
     padding: 10px;
   }
 
-  @media screen and (max-width: 1550px) {
+  @media screen and (max-width: 1150px) {
     .toggleWrapper {
       height: 17em;
     }
@@ -81,7 +81,6 @@ export const WorkContentContainer = styled.div`
     justify-content: center;
     flex: 1;
     margin-bottom: 10px;
-    margin: 10px;
   }
 
   @media screen and (max-width: 768px) {
@@ -115,6 +114,7 @@ export const WorkContentContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 15px;
+    margin: 10px;
   }
 
   a {
