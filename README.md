@@ -10,7 +10,7 @@ The porfolio contains work samples within UX, Frontend and Graphic Design to sho
 # Here's a link to the site http://pfredlund_uxdesigner.surge.sh/
 
 # :bulb: Credits
-Published on https://surge.sh/
+Published using https://surge.sh/
 
 
 
