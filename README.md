@@ -2,14 +2,11 @@
 
 This is a school project created as my major thesis at the Frontend Development education at KYH in Stockholm, Seden 2022.
 
-## Tools
 
+## :seedling: Introduction
 This project was built by me <a href="https://github.com/patrik-fredlund">Patrik Fredlund</a> with React JS using Styled Components for styling and React-router-dom for navigation.
-
-
- ## :seedling: Introduction
   
-## This website was created as a major thesis project for a school assignment in spring of 2022.
+## It was created as a major thesis project for a school assignment in spring of 2022.
 It will be used as a presentation tool when I apply for work opportunities. 
 The porfolio contains work samples within UX, Frontend and Graphic Design to show my skills in those areas.
 
@@ -19,7 +16,7 @@ The porfolio contains work samples within UX, Frontend and Graphic Design to sho
 ## :bulb: Credits
 It is published on https://surge.sh/
 
-## :tada: Key Features
+
 
 
 
