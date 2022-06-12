@@ -1,32 +1,25 @@
-# Getting Started with Create React App
+<h1 align="center">  My UX-Portfolio </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This is a school project created as my major thesis at the Frontend Development education at KYH in Stockholm, Sweden in the spring of 2022.
+It was built by me <a href="https://github.com/patrik-fredlund">Patrik Fredlund</a> with React JS using Styled Components for styling and React-router-dom for navigation.
+  
+It will be used as a presentation tool when I apply for work opportunities. 
+The porfolio contains work samples within UX, Frontend and Graphic Design to show my skills in those areas.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Here's a link to the site http://pfredlund_uxdesigner.surge.sh/
 
-### `npm start`
+# :bulb: Credits
+Published using https://surge.sh/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
+<<<<<<< HEAD
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
@@ -70,3 +63,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # uxportfolio_2022
 # uxportfolio2022
+=======
+>>>>>>> e874efbe6280fe79528128008e045cb1e1aaee94
